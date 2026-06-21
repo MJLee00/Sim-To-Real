@@ -1,0 +1,431 @@
+method,intersection_id,city,topology,lane_profile,risk_level,overflow_count,overflow_duration_minutes,overflow_switch_success,throughput,stop_frequency,average_delay_seconds,safety_violation_rate,setting,setting_description
+default_sim,city1_i01,city_1,4way,balanced,medium,20629.0445,335.3224,0.5685,26140.8746,0.6531,143.8899,0.2128,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i01,city_1,4way,balanced,medium,9392.9755,162.3055,0.8817,27879.6611,0.5357,114.6746,0.0687,V1,lighter vehicle dynamics
+default_sim,city1_i02,city_1,4way,balanced,medium,20469.8764,334.032,0.5685,26140.8746,0.6531,143.8899,0.2128,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i02,city_1,4way,balanced,medium,9191.2024,160.5582,0.8817,27879.6611,0.5357,114.6746,0.0687,V1,lighter vehicle dynamics
+default_sim,city1_i03,city_1,4way,mild_imbalance,medium,20590.0508,334.5761,0.5704,23473.9593,0.7738,170.2295,0.2116,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i03,city_1,4way,mild_imbalance,medium,9339.2099,162.4362,0.8821,25023.1528,0.6353,136.0519,0.0696,V1,lighter vehicle dynamics
+default_sim,city1_i04,city_1,4way,mild_imbalance,medium,20528.1351,334.0736,0.5704,23473.9593,0.7738,170.2295,0.2116,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i04,city_1,4way,mild_imbalance,medium,9520.5869,164.0062,0.8821,25023.1528,0.6353,136.0519,0.0696,V1,lighter vehicle dynamics
+default_sim,city1_i05,city_1,4way,severe_imbalance,high,21218.6034,341.7958,0.5683,22077.5132,1.0296,226.844,0.2145,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i05,city_1,4way,severe_imbalance,high,9812.0669,170.1414,0.8816,23483.2528,0.8534,182.9633,0.0755,V1,lighter vehicle dynamics
+default_sim,city1_i06,city_1,4way,balanced,medium,21063.6535,338.846,0.5685,26140.8746,0.6531,143.8899,0.2128,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i06,city_1,4way,balanced,medium,9331.4516,161.7727,0.8817,27879.6611,0.5357,114.6746,0.0687,V1,lighter vehicle dynamics
+default_sim,city1_i07,city_1,3way,mild_imbalance,medium,10887.5181,177.2137,0.5783,13456.4098,0.0988,21.4836,0.2058,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i07,city_1,3way,mild_imbalance,medium,5004.2065,87.0116,0.8839,14344.4825,0.0808,17.3065,0.0683,V1,lighter vehicle dynamics
+default_sim,city1_i08,city_1,3way,balanced,low,1446.9504,23.7177,0.5822,13463.8498,0.0601,13.0278,0.2022,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i08,city_1,3way,balanced,low,665.252,11.5574,0.8848,14370.6715,0.049,10.4904,0.0644,V1,lighter vehicle dynamics
+default_sim,city1_i09,city_1,4way,balanced,medium,20462.3817,333.9712,0.5685,26140.8746,0.6531,143.8899,0.2128,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i09,city_1,4way,balanced,medium,9499.1264,163.2248,0.8817,27879.6611,0.5357,114.6746,0.0687,V1,lighter vehicle dynamics
+default_sim,city1_i10,city_1,4way,severe_imbalance,high,21177.0447,341.4593,0.5683,22077.5132,1.0296,226.844,0.2145,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i10,city_1,4way,severe_imbalance,high,9785.741,169.9149,0.8816,23483.2528,0.8534,182.9633,0.0755,V1,lighter vehicle dynamics
+default_sim,city1_i11,city_1,3way,mild_imbalance,medium,10702.2267,175.7019,0.5783,13456.4098,0.0988,21.4836,0.2058,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i11,city_1,3way,mild_imbalance,medium,5072.1776,87.6018,0.8839,14344.4825,0.0808,17.3065,0.0683,V1,lighter vehicle dynamics
+default_sim,city1_i12,city_1,4way,balanced,medium,20602.1429,335.1043,0.5685,26140.8746,0.6531,143.8899,0.2128,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i12,city_1,4way,balanced,medium,9336.5396,161.8168,0.8817,27879.6611,0.5357,114.6746,0.0687,V1,lighter vehicle dynamics
+default_sim,city1_i13,city_1,4way,balanced,low,20625.145,334.9352,0.5685,26149.7884,0.6531,143.8899,0.2123,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i13,city_1,4way,balanced,low,9103.1803,158.6219,0.8817,27911.0375,0.534,114.2714,0.0667,V1,lighter vehicle dynamics
+default_sim,city1_i14,city_1,3way,mild_imbalance,medium,10902.1767,177.3333,0.5783,13456.4098,0.0988,21.4836,0.2058,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i14,city_1,3way,mild_imbalance,medium,5048.2406,87.394,0.8839,14344.4825,0.0808,17.3065,0.0683,V1,lighter vehicle dynamics
+default_sim,city1_i15,city_1,4way,balanced,medium,20433.8191,333.7397,0.5685,26140.8746,0.6531,143.8899,0.2128,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i15,city_1,4way,balanced,medium,9325.9032,161.7247,0.8817,27879.6611,0.5357,114.6746,0.0687,V1,lighter vehicle dynamics
+default_sim,city1_i16,city_1,3way,severe_imbalance,high,19120.8023,312.2995,0.5706,13518.369,0.2995,65.9741,0.2128,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i16,city_1,3way,severe_imbalance,high,9111.4011,158.0239,0.8821,14379.123,0.248,53.1632,0.0751,V1,lighter vehicle dynamics
+default_sim,city1_i17,city_1,4way,balanced,low,20614.1581,334.8461,0.5685,26149.7884,0.6531,143.8899,0.2123,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i17,city_1,4way,balanced,low,9277.9905,160.1389,0.8817,27911.0375,0.534,114.2714,0.0667,V1,lighter vehicle dynamics
+default_sim,city1_i18,city_1,3way,mild_imbalance,medium,10750.667,176.0971,0.5783,13456.4098,0.0988,21.4836,0.2058,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i18,city_1,3way,mild_imbalance,medium,5086.4172,87.7255,0.8839,14344.4825,0.0808,17.3065,0.0683,V1,lighter vehicle dynamics
+default_sim,city2_i01,city_2,3way,severe_imbalance,high,19945.3666,321.1934,0.5695,14383.5796,0.3226,71.0671,0.2144,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i01,city_2,3way,severe_imbalance,high,9495.5728,164.0086,0.8819,15278.2291,0.2687,57.6405,0.0788,V1,lighter vehicle dynamics
+default_sim,city2_i02,city_2,4way,severe_imbalance,high,20905.8091,339.8901,0.5683,22064.2768,1.0296,226.844,0.2153,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i02,city_2,4way,severe_imbalance,high,10313.4786,176.5356,0.8816,23436.6607,0.8579,184.0795,0.079,V1,lighter vehicle dynamics
+default_sim,city2_i03,city_2,4way,mild_imbalance,high,20821.6843,337.4618,0.5704,23451.2714,0.7738,170.4729,0.2129,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i03,city_2,4way,mild_imbalance,high,10015.0467,171.6069,0.8821,24943.2913,0.6408,137.4054,0.0753,V1,lighter vehicle dynamics
+default_sim,city2_i04,city_2,3way,mild_imbalance,medium,11012.8045,178.4814,0.5783,13450.4711,0.0988,21.5053,0.2064,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i04,city_2,3way,mild_imbalance,medium,5227.7084,89.7655,0.8839,14323.5782,0.0812,17.3854,0.0709,V1,lighter vehicle dynamics
+default_sim,city3_i01,city_3,4way,balanced,medium,20977.9435,338.3624,0.5685,26135.5688,0.6531,143.8899,0.213,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i01,city_3,4way,balanced,medium,9606.2136,164.8486,0.8817,27860.9847,0.5366,114.9146,0.0699,V1,lighter vehicle dynamics
+default_sim,city3_i02,city_3,4way,mild_imbalance,medium,20692.823,335.6398,0.5704,23468.7794,0.7738,170.3145,0.2119,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i02,city_3,4way,mild_imbalance,medium,9467.0789,164.303,0.8821,25004.9196,0.6366,136.3609,0.0709,V1,lighter vehicle dynamics
+default_sim,city3_i03,city_3,3way,balanced,low,1428.5388,23.5802,0.5822,13461.5005,0.0601,13.0331,0.2024,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i03,city_3,3way,balanced,low,655.5587,11.5165,0.8848,14362.4017,0.0491,10.5095,0.0654,V1,lighter vehicle dynamics
+default_sim,city3_i04,city_3,4way,mild_imbalance,medium,20490.6622,333.9994,0.5704,23468.7794,0.7738,170.3145,0.2119,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i04,city_3,4way,mild_imbalance,medium,9545.4428,164.9805,0.8821,25004.9196,0.6366,136.3609,0.0709,V1,lighter vehicle dynamics
+default_sim,city3_i05,city_3,4way,severe_imbalance,high,21167.0679,341.6915,0.5683,22070.895,1.0296,226.844,0.2149,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i05,city_3,4way,severe_imbalance,high,10287.4713,175.2699,0.8816,23459.9568,0.8557,183.5214,0.0773,V1,lighter vehicle dynamics
+default_sim,city3_i06,city_3,3way,balanced,low,1460.6733,23.8432,0.5822,13461.5005,0.0601,13.0331,0.2024,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i06,city_3,3way,balanced,low,653.7458,11.5007,0.8848,14362.4017,0.0491,10.5095,0.0654,V1,lighter vehicle dynamics
+default_sim,city3_i07,city_3,4way,balanced,medium,20856.566,337.3785,0.5685,26135.5688,0.6531,143.8899,0.213,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i07,city_3,4way,balanced,medium,9523.3918,164.1322,0.8817,27860.9847,0.5366,114.9146,0.0699,V1,lighter vehicle dynamics
+default_sim,city3_i08,city_3,4way,mild_imbalance,medium,20398.4838,333.2514,0.5704,23468.7794,0.7738,170.3145,0.2119,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i08,city_3,4way,mild_imbalance,medium,9458.2587,164.2268,0.8821,25004.9196,0.6366,136.3609,0.0709,V1,lighter vehicle dynamics
+default_sim,city3_i09,city_3,3way,mild_imbalance,medium,10857.3623,177.0906,0.5783,13453.4404,0.0988,21.4945,0.2061,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i09,city_3,3way,mild_imbalance,medium,5148.8499,88.6744,0.8839,14334.0303,0.081,17.3459,0.0696,V1,lighter vehicle dynamics
+default_sim,city3_i10,city_3,4way,balanced,medium,20764.2261,336.63,0.5685,26135.5688,0.6531,143.8899,0.213,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i10,city_3,4way,balanced,medium,9319.5494,162.369,0.8817,27860.9847,0.5366,114.9146,0.0699,V1,lighter vehicle dynamics
+default_sim,city3_i11,city_3,4way,balanced,low,20937.37,337.6489,0.5685,26145.2254,0.6531,143.8899,0.2125,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i11,city_3,4way,balanced,low,9125.6701,159.4171,0.8817,27894.9758,0.5349,114.4778,0.0677,V1,lighter vehicle dynamics
+default_sim,city3_i12,city_3,4way,mild_imbalance,medium,20552.0754,334.4977,0.5704,23468.7794,0.7738,170.3145,0.2119,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i12,city_3,4way,mild_imbalance,medium,9435.0218,164.0259,0.8821,25004.9196,0.6366,136.3609,0.0709,V1,lighter vehicle dynamics
+default_sim,city3_i13,city_3,3way,severe_imbalance,high,19597.3453,316.5363,0.5703,13595.3812,0.3084,67.9389,0.2134,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i13,city_3,3way,severe_imbalance,high,9398.2387,161.4737,0.882,14451.025,0.2561,54.9202,0.077,V1,lighter vehicle dynamics
+default_sim,city3_i14,city_3,4way,balanced,medium,20572.1772,335.0732,0.5685,26135.5688,0.6531,143.8899,0.213,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i14,city_3,4way,balanced,medium,9457.4089,163.5615,0.8817,27860.9847,0.5366,114.9146,0.0699,V1,lighter vehicle dynamics
+default_sim,city3_i15,city_3,3way,balanced,low,1445.6847,23.7205,0.5822,13461.5005,0.0601,13.0331,0.2024,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i15,city_3,3way,balanced,low,657.9142,11.5371,0.8848,14362.4017,0.0491,10.5095,0.0654,V1,lighter vehicle dynamics
+default_sim,city3_i16,city_3,4way,mild_imbalance,medium,20343.6296,332.8063,0.5704,23468.7794,0.7738,170.3145,0.2119,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i16,city_3,4way,mild_imbalance,medium,9708.5038,166.3901,0.8821,25004.9196,0.6366,136.3609,0.0709,V1,lighter vehicle dynamics
+default_sim,city3_i17,city_3,4way,severe_imbalance,high,21069.3583,340.9005,0.5683,22070.895,1.0296,226.844,0.2149,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i17,city_3,4way,severe_imbalance,high,10088.919,173.5644,0.8816,23459.9568,0.8557,183.5214,0.0773,V1,lighter vehicle dynamics
+default_sim,city3_i18,city_3,3way,mild_imbalance,medium,10888.6119,177.3455,0.5783,13453.4404,0.0988,21.4945,0.2061,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i18,city_3,3way,mild_imbalance,medium,4984.7076,87.2508,0.8839,14334.0303,0.081,17.3459,0.0696,V1,lighter vehicle dynamics
+default_sim,city3_i19,city_3,4way,balanced,medium,20419.7498,333.8377,0.5685,26135.5688,0.6531,143.8899,0.213,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i19,city_3,4way,balanced,medium,9538.9517,164.2668,0.8817,27860.9847,0.5366,114.9146,0.0699,V1,lighter vehicle dynamics
+default_sim,city3_i20,city_3,4way,balanced,low,20642.9576,335.2617,0.5685,26145.2254,0.6531,143.8899,0.2125,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i20,city_3,4way,balanced,low,9363.2533,161.4766,0.8817,27894.9758,0.5349,114.4778,0.0677,V1,lighter vehicle dynamics
+default_sim,city3_i21,city_3,3way,mild_imbalance,medium,11011.121,178.3448,0.5783,13453.4404,0.0988,21.4945,0.2061,V1,lighter vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i21,city_3,3way,mild_imbalance,medium,5051.1118,87.8267,0.8839,14334.0303,0.081,17.3459,0.0696,V1,lighter vehicle dynamics
+default_sim,city1_i01,city_1,4way,balanced,medium,28175.4826,478.7353,0.5364,23441.0022,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i01,city_1,4way,balanced,medium,14968.2704,257.9948,0.8624,25112.0113,0.6041,134.93,0.1137,V2,heavier vehicle dynamics
+default_sim,city1_i02,city_1,4way,balanced,medium,27958.0882,476.893,0.5364,23441.0022,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i02,city_1,4way,balanced,medium,14646.7328,255.2173,0.8624,25112.0113,0.6041,134.93,0.1137,V2,heavier vehicle dynamics
+default_sim,city1_i03,city_1,4way,mild_imbalance,medium,28254.7372,479.4069,0.5387,21049.6434,0.8591,197.2335,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i03,city_1,4way,mild_imbalance,medium,14843.7766,257.6591,0.8629,22539.5407,0.7162,160.0363,0.1147,V2,heavier vehicle dynamics
+default_sim,city1_i04,city_1,4way,mild_imbalance,medium,28169.7732,478.6869,0.5387,21049.6434,0.8591,197.2335,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i04,city_1,4way,mild_imbalance,medium,15132.0579,260.1495,0.8629,22539.5407,0.7162,160.0363,0.1147,V2,heavier vehicle dynamics
+default_sim,city1_i05,city_1,4way,severe_imbalance,high,28692.8643,483.6799,0.536,19797.8935,1.1432,262.4537,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i05,city_1,4way,severe_imbalance,high,15419.4236,267.5564,0.8623,21154.4504,0.9618,215.1219,0.1218,V2,heavier vehicle dynamics
+default_sim,city1_i06,city_1,4way,balanced,medium,28769.0786,483.7658,0.5364,23441.0022,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i06,city_1,4way,balanced,medium,14870.2283,257.1479,0.8624,25112.0113,0.6041,134.93,0.1137,V2,heavier vehicle dynamics
+default_sim,city1_i07,city_1,3way,mild_imbalance,medium,15341.1167,259.3695,0.5482,12066.6746,0.1097,25.1685,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i07,city_1,3way,mild_imbalance,medium,7955.5634,137.9871,0.8651,12920.7558,0.0911,20.3447,0.1126,V2,heavier vehicle dynamics
+default_sim,city1_i08,city_1,3way,balanced,low,2076.3659,35.0897,0.553,12073.1769,0.0669,15.2556,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i08,city_1,3way,balanced,low,1065.4343,18.4275,0.8662,12943.644,0.0552,12.3326,0.1078,V2,heavier vehicle dynamics
+default_sim,city1_i09,city_1,4way,balanced,medium,27947.8519,476.8062,0.5364,23441.0022,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i09,city_1,4way,balanced,medium,15137.4283,259.4561,0.8624,25112.0113,0.6041,134.93,0.1137,V2,heavier vehicle dynamics
+default_sim,city1_i10,city_1,4way,severe_imbalance,high,28636.6664,483.2036,0.536,19797.8935,1.1432,262.4537,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i10,city_1,4way,severe_imbalance,high,15378.0532,267.2002,0.8623,21154.4504,0.9618,215.1219,0.1218,V2,heavier vehicle dynamics
+default_sim,city1_i11,city_1,3way,mild_imbalance,medium,15080.0308,257.1569,0.5482,12066.6746,0.1097,25.1685,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i11,city_1,3way,mild_imbalance,medium,8063.6222,138.9232,0.8651,12920.7558,0.0911,20.3447,0.1126,V2,heavier vehicle dynamics
+default_sim,city1_i12,city_1,4way,balanced,medium,28138.7399,478.4239,0.5364,23441.0022,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i12,city_1,4way,balanced,medium,14878.3363,257.218,0.8624,25112.0113,0.6041,134.93,0.1137,V2,heavier vehicle dynamics
+default_sim,city1_i13,city_1,4way,balanced,low,28246.0046,479.3329,0.5364,23448.7925,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i13,city_1,4way,balanced,low,14570.5904,252.9939,0.8624,25139.4331,0.6023,134.4862,0.1113,V2,heavier vehicle dynamics
+default_sim,city1_i14,city_1,3way,mild_imbalance,medium,15361.7715,259.5445,0.5482,12066.6746,0.1097,25.1685,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i14,city_1,3way,mild_imbalance,medium,8025.5677,138.5936,0.8651,12920.7558,0.0911,20.3447,0.1126,V2,heavier vehicle dynamics
+default_sim,city1_i15,city_1,4way,balanced,medium,27908.8405,476.4756,0.5364,23441.0022,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i15,city_1,4way,balanced,medium,14861.3866,257.0715,0.8624,25112.0113,0.6041,134.93,0.1137,V2,heavier vehicle dynamics
+default_sim,city1_i16,city_1,3way,severe_imbalance,high,26053.5208,444.6525,0.5388,12122.5261,0.3325,76.3307,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i16,city_1,3way,severe_imbalance,high,14318.6803,248.4786,0.8629,12953.1648,0.2794,62.4961,0.1213,V2,heavier vehicle dynamics
+default_sim,city1_i17,city_1,4way,balanced,low,28230.9582,479.2054,0.5364,23448.7925,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i17,city_1,4way,balanced,low,14850.3923,255.4134,0.8624,25139.4331,0.6023,134.4862,0.1113,V2,heavier vehicle dynamics
+default_sim,city1_i18,city_1,3way,mild_imbalance,medium,15148.2858,257.7353,0.5482,12066.6746,0.1097,25.1685,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i18,city_1,3way,mild_imbalance,medium,8086.2599,139.1194,0.8651,12920.7558,0.0911,20.3447,0.1126,V2,heavier vehicle dynamics
+default_sim,city2_i01,city_2,3way,severe_imbalance,high,26958.0757,454.1583,0.5376,12898.5957,0.3582,82.2231,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i01,city_2,3way,severe_imbalance,high,14823.0699,256.5665,0.8627,13763.9238,0.3026,67.7387,0.1257,V2,heavier vehicle dynamics
+default_sim,city2_i02,city_2,4way,severe_imbalance,high,28138.5077,478.9819,0.536,19786.3254,1.1432,262.4537,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i02,city_2,4way,severe_imbalance,high,16099.8701,276.1786,0.8623,21113.7306,0.9666,216.3506,0.126,V2,heavier vehicle dynamics
+default_sim,city2_i03,city_2,4way,mild_imbalance,high,28355.8024,480.2634,0.5387,21029.815,0.8591,197.2335,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i03,city_2,4way,mild_imbalance,high,15735.0328,269.7885,0.8629,22469.7446,0.7221,161.5264,0.1214,V2,heavier vehicle dynamics
+default_sim,city2_i04,city_2,3way,mild_imbalance,medium,15462.2242,260.3958,0.5482,12061.4843,0.1097,25.1685,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i04,city_2,3way,mild_imbalance,medium,8265.4505,141.7578,0.8651,12902.4862,0.0914,20.4316,0.1157,V2,heavier vehicle dynamics
+default_sim,city3_i01,city_3,4way,balanced,medium,28606.2909,482.3862,0.5364,23436.3651,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i01,city_3,4way,balanced,medium,15268.9759,261.5225,0.8624,25095.6888,0.6051,135.1942,0.1151,V2,heavier vehicle dynamics
+default_sim,city3_i02,city_3,4way,mild_imbalance,medium,28346.2867,480.1828,0.5387,21045.1164,0.8591,197.2335,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i02,city_3,4way,mild_imbalance,medium,15005.9666,260.0731,0.8629,22523.6056,0.7176,160.3765,0.1162,V2,heavier vehicle dynamics
+default_sim,city3_i03,city_3,3way,balanced,low,2046.9891,34.88,0.553,12071.1236,0.0669,15.2614,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i03,city_3,3way,balanced,low,1047.4614,18.3299,0.8662,12936.4166,0.0553,12.3536,0.109,V2,heavier vehicle dynamics
+default_sim,city3_i04,city_3,4way,mild_imbalance,medium,28069.3547,477.8359,0.5387,21045.1164,0.8591,197.2335,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i04,city_3,4way,mild_imbalance,medium,15130.1787,261.1454,0.8629,22523.6056,0.7176,160.3765,0.1162,V2,heavier vehicle dynamics
+default_sim,city3_i05,city_3,4way,severe_imbalance,high,28556.5093,482.5243,0.536,19792.1095,1.1432,262.4537,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i05,city_3,4way,severe_imbalance,high,16112.0828,274.9002,0.8623,21134.0905,0.9642,215.7362,0.1239,V2,heavier vehicle dynamics
+default_sim,city3_i06,city_3,3way,balanced,low,2093.0354,35.269,0.553,12071.1236,0.0669,15.2614,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i06,city_3,3way,balanced,low,1044.5647,18.3047,0.8662,12936.4166,0.0553,12.3536,0.109,V2,heavier vehicle dynamics
+default_sim,city3_i07,city_3,4way,balanced,medium,28440.7762,480.9835,0.5364,23436.3651,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i07,city_3,4way,balanced,medium,15137.3315,260.386,0.8624,25095.6888,0.6051,135.1942,0.1151,V2,heavier vehicle dynamics
+default_sim,city3_i08,city_3,4way,mild_imbalance,medium,27943.083,476.7658,0.5387,21045.1164,0.8591,197.2335,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i08,city_3,4way,mild_imbalance,medium,14991.9859,259.9524,0.8629,22523.6056,0.7176,160.3765,0.1162,V2,heavier vehicle dynamics
+default_sim,city3_i09,city_3,3way,mild_imbalance,medium,15271.2538,258.7774,0.5482,12064.0795,0.1097,25.1685,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i09,city_3,3way,mild_imbalance,medium,8162.8749,140.3263,0.8651,12911.621,0.0912,20.3882,0.1142,V2,heavier vehicle dynamics
+default_sim,city3_i10,city_3,4way,balanced,medium,28314.858,479.9164,0.5364,23436.3651,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i10,city_3,4way,balanced,medium,14813.3261,257.5888,0.8624,25095.6888,0.6051,135.1942,0.1151,V2,heavier vehicle dynamics
+default_sim,city3_i11,city_3,4way,balanced,low,28634.1283,482.6221,0.5364,23444.8046,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i11,city_3,4way,balanced,low,14573.3799,253.819,0.8624,25125.3957,0.6032,134.7134,0.1125,V2,heavier vehicle dynamics
+default_sim,city3_i12,city_3,4way,mild_imbalance,medium,28153.4822,478.5488,0.5387,21045.1164,0.8591,197.2335,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i12,city_3,4way,mild_imbalance,medium,14955.154,259.6344,0.8629,22523.6056,0.7176,160.3765,0.1162,V2,heavier vehicle dynamics
+default_sim,city3_i13,city_3,3way,severe_imbalance,high,26613.6501,449.3794,0.5385,12191.6793,0.3424,78.6039,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i13,city_3,3way,severe_imbalance,high,14719.5202,253.2406,0.8629,13018.3219,0.2885,64.5505,0.1234,V2,heavier vehicle dynamics
+default_sim,city3_i14,city_3,4way,balanced,medium,28052.9732,477.6971,0.5364,23436.3651,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i14,city_3,4way,balanced,medium,15032.4524,259.4805,0.8624,25095.6888,0.6051,135.1942,0.1151,V2,heavier vehicle dynamics
+default_sim,city3_i15,city_3,3way,balanced,low,2071.5578,35.0876,0.553,12071.1236,0.0669,15.2614,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i15,city_3,3way,balanced,low,1051.225,18.3626,0.8662,12936.4166,0.0553,12.3536,0.109,V2,heavier vehicle dynamics
+default_sim,city3_i16,city_3,4way,mild_imbalance,medium,27867.9404,476.129,0.5387,21045.1164,0.8591,197.2335,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i16,city_3,4way,mild_imbalance,medium,15388.6416,263.3768,0.8629,22523.6056,0.7176,160.3765,0.1162,V2,heavier vehicle dynamics
+default_sim,city3_i17,city_3,4way,severe_imbalance,high,28424.6893,481.4072,0.536,19792.1095,1.1432,262.4537,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i17,city_3,4way,severe_imbalance,high,15801.1132,272.2252,0.8623,21134.0905,0.9642,215.7362,0.1239,V2,heavier vehicle dynamics
+default_sim,city3_i18,city_3,3way,mild_imbalance,medium,15315.2075,259.1499,0.5482,12064.0795,0.1097,25.1685,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i18,city_3,3way,mild_imbalance,medium,7902.6473,138.0735,0.8651,12911.621,0.0912,20.3882,0.1142,V2,heavier vehicle dynamics
+default_sim,city3_i19,city_3,4way,balanced,medium,27845.1175,475.9356,0.5364,23436.3651,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i19,city_3,4way,balanced,medium,15162.0638,260.5995,0.8624,25095.6888,0.6051,135.1942,0.1151,V2,heavier vehicle dynamics
+default_sim,city3_i20,city_3,4way,balanced,low,28231.4873,479.2099,0.5364,23444.8046,0.7252,166.4776,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i20,city_3,4way,balanced,low,14952.792,257.0981,0.8624,25125.3957,0.6032,134.7134,0.1125,V2,heavier vehicle dynamics
+default_sim,city3_i21,city_3,3way,mild_imbalance,medium,15487.5207,260.6102,0.5482,12064.0795,0.1097,25.1685,0.2707,V2,heavier vehicle dynamics
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i21,city_3,3way,mild_imbalance,medium,8007.9231,138.9849,0.8651,12911.621,0.0912,20.3882,0.1142,V2,heavier vehicle dynamics
+default_sim,city1_i01,city_1,4way,balanced,medium,26265.2804,446.8196,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i01,city_1,4way,balanced,medium,14631.4417,250.3652,0.8575,24684.3277,0.6181,138.1105,0.1235,V3,rain weather gap
+default_sim,city1_i02,city_1,4way,balanced,medium,26062.6246,445.1001,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i02,city_1,4way,balanced,medium,14317.1396,247.6699,0.8575,24684.3277,0.6181,138.1105,0.1235,V3,rain weather gap
+default_sim,city1_i03,city_1,4way,mild_imbalance,medium,26339.1618,447.4465,0.5315,20749.4497,0.8767,201.2849,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i03,city_1,4way,mild_imbalance,medium,14503.9598,249.9547,0.858,22155.7433,0.7328,163.802,0.1244,V3,rain weather gap
+default_sim,city1_i04,city_1,4way,mild_imbalance,medium,26259.9581,446.7744,0.5315,20749.4497,0.8767,201.2849,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i04,city_1,4way,mild_imbalance,medium,14785.6415,252.3706,0.858,22155.7433,0.7328,163.802,0.1244,V3,rain weather gap
+default_sim,city1_i05,city_1,4way,severe_imbalance,high,26747.5854,451.4345,0.5288,19533.5584,1.1666,267.8448,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i05,city_1,4way,severe_imbalance,high,15033.442,259.1085,0.8574,20794.5507,0.984,220.1612,0.1317,V3,rain weather gap
+default_sim,city1_i06,city_1,4way,balanced,medium,26818.6326,451.5147,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i06,city_1,4way,balanced,medium,14535.6058,249.5434,0.8575,24684.3277,0.6181,138.1105,0.1235,V3,rain weather gap
+default_sim,city1_i07,city_1,3way,mild_imbalance,medium,14301.041,242.0782,0.5412,11894.589,0.1119,25.6855,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i07,city_1,3way,mild_imbalance,medium,7776.3689,133.8894,0.8602,12700.7446,0.0932,20.8223,0.1223,V3,rain weather gap
+default_sim,city1_i08,city_1,3way,balanced,low,1935.5953,32.8872,0.5461,11894.589,0.0683,15.5922,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i08,city_1,3way,balanced,low,1043.0374,17.9012,0.8614,12723.1317,0.0565,12.6226,0.1173,V3,rain weather gap
+default_sim,city1_i09,city_1,4way,balanced,medium,26053.0822,445.0191,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i09,city_1,4way,balanced,medium,14796.793,251.7832,0.8575,24684.3277,0.6181,138.1105,0.1235,V3,rain weather gap
+default_sim,city1_i10,city_1,4way,severe_imbalance,high,26695.1975,450.99,0.5288,19533.5584,1.1666,267.8448,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i10,city_1,4way,severe_imbalance,high,14993.1072,258.7636,0.8574,20794.5507,0.984,220.1612,0.1317,V3,rain weather gap
+default_sim,city1_i11,city_1,3way,mild_imbalance,medium,14057.6558,240.0131,0.5412,11894.589,0.1119,25.6855,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i11,city_1,3way,mild_imbalance,medium,7881.9938,134.7977,0.8602,12700.7446,0.0932,20.8223,0.1223,V3,rain weather gap
+default_sim,city1_i12,city_1,4way,balanced,medium,26231.0287,446.529,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i12,city_1,4way,balanced,medium,14543.5314,249.6113,0.8575,24684.3277,0.6181,138.1105,0.1235,V3,rain weather gap
+default_sim,city1_i13,city_1,4way,balanced,low,26331.0213,447.3774,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i13,city_1,4way,balanced,low,14254.2024,245.6696,0.8575,24711.1491,0.6163,137.6622,0.121,V3,rain weather gap
+default_sim,city1_i14,city_1,3way,mild_imbalance,medium,14320.2955,242.2415,0.5412,11894.589,0.1119,25.6855,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i14,city_1,3way,mild_imbalance,medium,7844.7965,134.4779,0.8602,12700.7446,0.0932,20.8223,0.1223,V3,rain weather gap
+default_sim,city1_i15,city_1,4way,balanced,medium,26016.7157,444.7106,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i15,city_1,4way,balanced,medium,14526.9631,249.4692,0.8575,24684.3277,0.6181,138.1105,0.1235,V3,rain weather gap
+default_sim,city1_i16,city_1,3way,severe_imbalance,high,24287.1804,415.009,0.5316,11960.6701,0.3393,77.8986,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i16,city_1,3way,severe_imbalance,high,13961.6167,240.6463,0.8581,12732.7932,0.2859,63.959,0.1311,V3,rain weather gap
+default_sim,city1_i17,city_1,4way,balanced,low,26316.9949,447.2584,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i17,city_1,4way,balanced,low,14527.9287,248.019,0.8575,24711.1491,0.6163,137.6622,0.121,V3,rain weather gap
+default_sim,city1_i18,city_1,3way,mild_imbalance,medium,14121.2834,240.553,0.5412,11894.589,0.1119,25.6855,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i18,city_1,3way,mild_imbalance,medium,7904.1216,134.988,0.8602,12700.7446,0.0932,20.8223,0.1223,V3,rain weather gap
+default_sim,city2_i01,city_2,3way,severe_imbalance,high,25130.4095,423.8811,0.5304,12733.8183,0.3655,83.9121,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i01,city_2,3way,severe_imbalance,high,14434.7575,248.2247,0.8578,13529.8884,0.3096,69.3197,0.1356,V3,rain weather gap
+default_sim,city2_i02,city_2,4way,severe_imbalance,high,26230.8122,447.0498,0.5288,19533.5584,1.1666,267.8448,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i02,city_2,4way,severe_imbalance,high,15677.3224,267.1916,0.8574,20754.7224,0.9888,221.4024,0.136,V3,rain weather gap
+default_sim,city2_i03,city_2,4way,mild_imbalance,high,26433.3751,448.2458,0.5315,20749.4497,0.8767,201.2849,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i03,city_2,4way,mild_imbalance,high,15341.8986,261.2745,0.858,22087.4752,0.7387,165.3072,0.1313,V3,rain weather gap
+default_sim,city2_i04,city_2,3way,mild_imbalance,medium,14413.9379,243.0361,0.5412,11894.589,0.1119,25.6855,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i04,city_2,3way,mild_imbalance,medium,8071.0544,137.4372,0.8602,12682.8749,0.0935,20.91,0.1254,V3,rain weather gap
+default_sim,city3_i01,city_3,4way,balanced,medium,26666.8814,450.2271,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i01,city_3,4way,balanced,medium,14918.3731,253.6937,0.8575,24668.3625,0.6191,138.3774,0.1249,V3,rain weather gap
+default_sim,city3_i02,city_3,4way,mild_imbalance,medium,26424.5046,448.1706,0.5315,20749.4497,0.8767,201.2849,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i02,city_3,4way,mild_imbalance,medium,14655.0512,252.1954,0.858,22140.157,0.7342,164.1457,0.126,V3,rain weather gap
+default_sim,city3_i03,city_3,3way,balanced,low,1908.2102,32.6549,0.5461,11894.589,0.0683,15.598,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i03,city_3,3way,balanced,low,1025.0011,17.8003,0.8614,12716.0625,0.0566,12.6438,0.1186,V3,rain weather gap
+default_sim,city3_i04,city_3,4way,mild_imbalance,medium,26166.3476,445.9802,0.5315,20749.4497,0.8767,201.2849,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i04,city_3,4way,mild_imbalance,medium,14776.3587,253.2352,0.858,22140.157,0.7342,164.1457,0.126,V3,rain weather gap
+default_sim,city3_i05,city_3,4way,severe_imbalance,high,26620.4748,450.356,0.5288,19533.5584,1.1666,267.8448,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i05,city_3,4way,severe_imbalance,high,15698.8737,266.0862,0.8574,20774.6365,0.9864,220.7818,0.1339,V3,rain weather gap
+default_sim,city3_i06,city_3,3way,balanced,low,1951.1347,33.0191,0.5461,11894.589,0.0683,15.598,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i06,city_3,3way,balanced,low,1022.1664,17.7758,0.8614,12716.0625,0.0566,12.6438,0.1186,V3,rain weather gap
+default_sim,city3_i07,city_3,4way,balanced,medium,26512.5879,448.918,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i07,city_3,4way,balanced,medium,14789.7514,252.5912,0.8575,24668.3625,0.6191,138.3774,0.1249,V3,rain weather gap
+default_sim,city3_i08,city_3,4way,mild_imbalance,medium,26048.6367,444.9814,0.5315,20749.4497,0.8767,201.2849,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i08,city_3,4way,mild_imbalance,medium,14641.3975,252.0783,0.858,22140.157,0.7342,164.1457,0.126,V3,rain weather gap
+default_sim,city3_i09,city_3,3way,mild_imbalance,medium,14235.9146,241.5256,0.5412,11894.589,0.1119,25.6855,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i09,city_3,3way,mild_imbalance,medium,7974.9139,136.1037,0.8602,12691.8097,0.0933,20.8661,0.1239,V3,rain weather gap
+default_sim,city3_i10,city_3,4way,balanced,medium,26395.2066,447.922,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i10,city_3,4way,balanced,medium,14473.1858,249.8778,0.8575,24668.3625,0.6191,138.3774,0.1249,V3,rain weather gap
+default_sim,city3_i11,city_3,4way,balanced,low,26692.8315,450.4473,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i11,city_3,4way,balanced,low,14251.0065,246.3895,0.8575,24697.4191,0.6172,137.8917,0.1223,V3,rain weather gap
+default_sim,city3_i12,city_3,4way,mild_imbalance,medium,26244.7715,446.6456,0.5315,20749.4497,0.8767,201.2849,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i12,city_3,4way,mild_imbalance,medium,14605.4269,251.77,0.858,22140.157,0.7342,164.1457,0.126,V3,rain weather gap
+default_sim,city3_i13,city_3,3way,severe_imbalance,high,24809.3349,419.4208,0.5313,12032.4152,0.3494,80.2185,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i13,city_3,3way,severe_imbalance,high,14343.2001,245.1323,0.858,12796.903,0.2951,66.0593,0.1333,V3,rain weather gap
+default_sim,city3_i14,city_3,4way,balanced,medium,26151.0767,445.8506,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i14,city_3,4way,balanced,medium,14687.2805,251.7129,0.8575,24668.3625,0.6191,138.3774,0.1249,V3,rain weather gap
+default_sim,city3_i15,city_3,3way,balanced,low,1931.1132,32.8492,0.5461,11894.589,0.0683,15.598,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i15,city_3,3way,balanced,low,1028.684,17.832,0.8614,12716.0625,0.0566,12.6438,0.1186,V3,rain weather gap
+default_sim,city3_i16,city_3,4way,mild_imbalance,medium,25978.5886,444.3871,0.5315,20749.4497,0.8767,201.2849,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i16,city_3,4way,mild_imbalance,medium,15028.7773,255.399,0.858,22140.157,0.7342,164.1457,0.126,V3,rain weather gap
+default_sim,city3_i17,city_3,4way,severe_imbalance,high,26497.5917,449.3134,0.5288,19533.5584,1.1666,267.8448,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i17,city_3,4way,severe_imbalance,high,15395.8793,263.497,0.8574,20774.6365,0.9864,220.7818,0.1339,V3,rain weather gap
+default_sim,city3_i18,city_3,3way,mild_imbalance,medium,14276.8884,241.8732,0.5412,11894.589,0.1119,25.6855,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i18,city_3,3way,mild_imbalance,medium,7720.6784,133.9187,0.8602,12691.8097,0.0933,20.8661,0.1239,V3,rain weather gap
+default_sim,city3_i19,city_3,4way,balanced,medium,25957.3129,444.2065,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i19,city_3,4way,balanced,medium,14813.9158,252.7984,0.8575,24668.3625,0.6191,138.3774,0.1249,V3,rain weather gap
+default_sim,city3_i20,city_3,4way,balanced,low,26317.4882,447.2626,0.5291,23101.9351,0.74,169.8973,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i20,city_3,4way,balanced,low,14622.0257,249.5726,0.8575,24697.4191,0.6172,137.8917,0.1223,V3,rain weather gap
+default_sim,city3_i21,city_3,3way,mild_imbalance,medium,14437.5193,243.2362,0.5412,11894.589,0.1119,25.6855,0.2775,V3,rain weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i21,city_3,3way,mild_imbalance,medium,7823.5301,134.8027,0.8602,12691.8097,0.0933,20.8661,0.1239,V3,rain weather gap
+default_sim,city1_i01,city_1,4way,balanced,medium,29608.1342,510.651,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i01,city_1,4way,balanced,medium,18258.3899,311.6931,0.8466,23051.2661,0.6603,150.1735,0.1493,V4,snow weather gap
+default_sim,city1_i02,city_1,4way,balanced,medium,29379.6859,508.6858,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i02,city_1,4way,balanced,medium,17866.1764,308.3375,0.8466,23051.2661,0.6603,150.1735,0.1493,V4,snow weather gap
+default_sim,city1_i03,city_1,4way,mild_imbalance,medium,29691.4188,511.3674,0.5139,19601.9838,0.9284,216.7798,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i03,city_1,4way,mild_imbalance,medium,18081.6118,310.917,0.8471,20690.2422,0.7827,178.0817,0.1502,V4,snow weather gap
+default_sim,city1_i04,city_1,4way,mild_imbalance,medium,29602.1346,510.5994,0.5139,19601.9838,0.9284,216.7798,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i04,city_1,4way,mild_imbalance,medium,18432.7752,313.9222,0.8471,20690.2422,0.7827,178.0817,0.1502,V4,snow weather gap
+default_sim,city1_i05,city_1,4way,severe_imbalance,high,30151.8235,515.9252,0.511,18453.3325,1.2354,288.4635,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i05,city_1,4way,severe_imbalance,high,18658.3193,321.1245,0.8465,19420.2418,1.0507,239.2885,0.1579,V4,snow weather gap
+default_sim,city1_i06,city_1,4way,balanced,medium,30231.9131,516.0168,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i06,city_1,4way,balanced,medium,18138.7976,310.67,0.8466,23051.2661,0.6603,150.1735,0.1493,V4,snow weather gap
+default_sim,city1_i07,city_1,3way,mild_imbalance,medium,16121.1735,276.6608,0.5244,11236.806,0.1185,27.6628,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i07,city_1,3way,mild_imbalance,medium,9696.5635,166.5452,0.8496,11860.6484,0.0995,22.6308,0.1478,V4,snow weather gap
+default_sim,city1_i08,city_1,3way,balanced,low,2181.9438,37.5854,0.5298,11236.806,0.0723,16.8915,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i08,city_1,3way,balanced,low,1304.3614,22.3185,0.8508,11881.1434,0.0603,13.7197,0.1425,V4,snow weather gap
+default_sim,city1_i09,city_1,4way,balanced,medium,29368.9291,508.5933,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i09,city_1,4way,balanced,medium,18464.7298,313.4585,0.8466,23051.2661,0.6603,150.1735,0.1493,V4,snow weather gap
+default_sim,city1_i10,city_1,4way,severe_imbalance,high,30092.7681,515.4172,0.511,18453.3325,1.2354,288.4635,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i10,city_1,4way,severe_imbalance,high,18608.2589,320.697,0.8465,19420.2418,1.0507,239.2885,0.1579,V4,snow weather gap
+default_sim,city1_i11,city_1,3way,mild_imbalance,medium,15846.812,274.3007,0.5244,11236.806,0.1185,27.6628,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i11,city_1,3way,mild_imbalance,medium,9828.27,167.6751,0.8496,11860.6484,0.0995,22.6308,0.1478,V4,snow weather gap
+default_sim,city1_i12,city_1,4way,balanced,medium,29569.5233,510.3188,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i12,city_1,4way,balanced,medium,18148.6878,310.7546,0.8466,23051.2661,0.6603,150.1735,0.1493,V4,snow weather gap
+default_sim,city1_i13,city_1,4way,balanced,low,29682.2422,511.2884,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i13,city_1,4way,balanced,low,17817.7185,306.2761,0.8466,23075.8207,0.6585,149.7057,0.1468,V4,snow weather gap
+default_sim,city1_i14,city_1,3way,mild_imbalance,medium,16142.8785,276.8475,0.5244,11236.806,0.1185,27.6628,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i14,city_1,3way,mild_imbalance,medium,9781.8876,167.2772,0.8496,11860.6484,0.0995,22.6308,0.1478,V4,snow weather gap
+default_sim,city1_i15,city_1,4way,balanced,medium,29327.9341,508.2406,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i15,city_1,4way,balanced,medium,18128.0124,310.5777,0.8466,23051.2661,0.6603,150.1735,0.1493,V4,snow weather gap
+default_sim,city1_i16,city_1,3way,severe_imbalance,high,27378.276,474.2961,0.5141,11299.2327,0.3593,83.8952,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i16,city_1,3way,severe_imbalance,high,17328.796,298.2409,0.8472,11891.2847,0.3052,69.5096,0.1571,V4,snow weather gap
+default_sim,city1_i17,city_1,4way,balanced,low,29666.4306,511.1524,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i17,city_1,4way,balanced,low,18159.8757,309.2051,0.8466,23075.8207,0.6585,149.7057,0.1468,V4,snow weather gap
+default_sim,city1_i18,city_1,3way,mild_imbalance,medium,15918.5377,274.9177,0.5244,11236.806,0.1185,27.6628,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i18,city_1,3way,mild_imbalance,medium,9855.8618,167.9118,0.8496,11860.6484,0.0995,22.6308,0.1478,V4,snow weather gap
+default_sim,city2_i01,city_2,3way,severe_imbalance,high,28328.8253,484.4355,0.5127,12029.6251,0.3871,90.3716,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i01,city_2,3way,severe_imbalance,high,17868.3957,306.9565,0.8469,12636.1784,0.3305,75.3217,0.1619,V4,snow weather gap
+default_sim,city2_i02,city_2,4way,severe_imbalance,high,29569.2792,510.9141,0.511,18453.3325,1.2354,288.4635,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i02,city_2,4way,severe_imbalance,high,19406.1822,330.4138,0.8465,19383.7797,1.0557,240.5839,0.1623,V4,snow weather gap
+default_sim,city2_i03,city_2,4way,mild_imbalance,high,29797.6228,512.281,0.5139,19601.9838,0.9284,216.7798,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i03,city_2,4way,mild_imbalance,high,19040.1514,323.7811,0.8471,20627.744,0.7888,179.6526,0.1573,V4,snow weather gap
+default_sim,city2_i04,city_2,3way,mild_imbalance,medium,16248.439,277.7555,0.5244,11236.806,0.1185,27.6628,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i04,city_2,3way,mild_imbalance,medium,10042.6185,170.6576,0.8496,11844.289,0.0998,22.7223,0.151,V4,snow weather gap
+default_sim,city3_i01,city_3,4way,balanced,medium,30060.8481,514.5453,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i01,city_3,4way,balanced,medium,18598.1057,315.5786,0.8466,23036.6503,0.6613,150.452,0.1508,V4,snow weather gap
+default_sim,city3_i02,city_3,4way,mild_imbalance,medium,29787.6233,512.195,0.5139,19601.9838,0.9284,216.7798,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i02,city_3,4way,mild_imbalance,medium,18250.6547,313.4289,0.8471,20675.9732,0.7841,178.4404,0.1519,V4,snow weather gap
+default_sim,city3_i03,city_3,3way,balanced,low,2151.0733,37.3199,0.5298,11236.806,0.0723,16.8915,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i03,city_3,3way,balanced,low,1280.6625,22.1764,0.8508,11874.6716,0.0604,13.7419,0.1438,V4,snow weather gap
+default_sim,city3_i04,city_3,4way,mild_imbalance,medium,29496.61,509.6916,0.5139,19601.9838,0.9284,216.7798,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i04,city_3,4way,mild_imbalance,medium,18401.7248,314.7212,0.8471,20675.9732,0.7841,178.4404,0.1519,V4,snow weather gap
+default_sim,city3_i05,city_3,4way,severe_imbalance,high,30008.5352,514.6926,0.511,18453.3325,1.2354,288.4635,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i05,city_3,4way,severe_imbalance,high,19458.2446,329.4058,0.8465,19402.0107,1.0532,239.9362,0.1601,V4,snow weather gap
+default_sim,city3_i06,city_3,3way,balanced,low,2199.4609,37.7361,0.5298,11236.806,0.0723,16.8915,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i06,city_3,3way,balanced,low,1277.1209,22.146,0.8508,11874.6716,0.0604,13.7419,0.1438,V4,snow weather gap
+default_sim,city3_i07,city_3,4way,balanced,medium,29886.9173,513.0491,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i07,city_3,4way,balanced,medium,18437.7585,314.2072,0.8466,23036.6503,0.6613,150.452,0.1508,V4,snow weather gap
+default_sim,city3_i08,city_3,4way,mild_imbalance,medium,29363.9177,508.5502,0.5139,19601.9838,0.9284,216.7798,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i08,city_3,4way,mild_imbalance,medium,18233.6511,313.2834,0.8471,20675.9732,0.7841,178.4404,0.1519,V4,snow weather gap
+default_sim,city3_i09,city_3,3way,mild_imbalance,medium,16047.7582,276.0292,0.5244,11236.806,0.1185,27.6628,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i09,city_3,3way,mild_imbalance,medium,9933.4725,169.1496,0.8496,11852.4687,0.0997,22.6765,0.1494,V4,snow weather gap
+default_sim,city3_i10,city_3,4way,balanced,medium,29754.5966,511.9109,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i10,city_3,4way,balanced,medium,18043.1096,310.8319,0.8466,23036.6503,0.6613,150.452,0.1508,V4,snow weather gap
+default_sim,city3_i11,city_3,4way,balanced,low,30090.1009,514.7969,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i11,city_3,4way,balanced,low,17798.2273,306.9521,0.8466,23063.2511,0.6594,149.9452,0.1481,V4,snow weather gap
+default_sim,city3_i12,city_3,4way,mild_imbalance,medium,29585.0152,510.4521,0.5139,19601.9838,0.9284,216.7798,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i12,city_3,4way,mild_imbalance,medium,18188.8551,312.9002,0.8471,20675.9732,0.7841,178.4404,0.1519,V4,snow weather gap
+default_sim,city3_i13,city_3,3way,severe_imbalance,high,27966.8866,479.338,0.5137,11367.0103,0.37,86.3937,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i13,city_3,3way,severe_imbalance,high,17778.5133,303.4625,0.8471,11951.3836,0.3151,71.785,0.1594,V4,snow weather gap
+default_sim,city3_i14,city_3,4way,balanced,medium,29479.3955,509.5435,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i14,city_3,4way,balanced,medium,18310.0124,313.1146,0.8466,23036.6503,0.6613,150.452,0.1508,V4,snow weather gap
+default_sim,city3_i15,city_3,3way,balanced,low,2176.8912,37.5419,0.5298,11236.806,0.0723,16.8915,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i15,city_3,3way,balanced,low,1285.2641,22.216,0.8508,11874.6716,0.0604,13.7419,0.1438,V4,snow weather gap
+default_sim,city3_i16,city_3,4way,mild_imbalance,medium,29284.9544,507.8709,0.5139,19601.9838,0.9284,216.7798,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i16,city_3,4way,mild_imbalance,medium,18716.0742,317.4103,0.8471,20675.9732,0.7841,178.4404,0.1519,V4,snow weather gap
+default_sim,city3_i17,city_3,4way,severe_imbalance,high,29870.0125,513.501,0.511,18453.3325,1.2354,288.4635,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i17,city_3,4way,severe_imbalance,high,19082.6928,326.2004,0.8465,19402.0107,1.0532,239.9362,0.1601,V4,snow weather gap
+default_sim,city3_i18,city_3,3way,mild_imbalance,medium,16093.9469,276.4266,0.5244,11236.806,0.1185,27.6628,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i18,city_3,3way,mild_imbalance,medium,9616.7993,166.434,0.8496,11852.4687,0.0997,22.6765,0.1494,V4,snow weather gap
+default_sim,city3_i19,city_3,4way,balanced,medium,29260.9709,507.6646,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i19,city_3,4way,balanced,medium,18467.8833,314.4649,0.8466,23036.6503,0.6613,150.452,0.1508,V4,snow weather gap
+default_sim,city3_i20,city_3,4way,balanced,low,29666.9867,511.1572,0.5113,21824.3743,0.7836,182.976,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i20,city_3,4way,balanced,low,18261.597,310.9176,0.8466,23063.2511,0.6594,149.9452,0.1481,V4,snow weather gap
+default_sim,city3_i21,city_3,3way,mild_imbalance,medium,16275.0218,277.9842,0.5244,11236.806,0.1185,27.6628,0.2965,V4,snow weather gap
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i21,city_3,3way,mild_imbalance,medium,9744.9103,167.5326,0.8496,11852.4687,0.0997,22.6765,0.1494,V4,snow weather gap
+default_sim,city1_i01,city_1,4way,balanced,medium,31518.3364,542.5666,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i01,city_1,4way,balanced,medium,21063.4768,354.4155,0.8368,22233.7452,0.6892,156.7915,0.1747,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i02,city_1,4way,balanced,medium,31275.1495,540.4787,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i02,city_1,4way,balanced,medium,20611.0064,350.6,0.8368,22233.7452,0.6892,156.7915,0.1747,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i03,city_1,4way,mild_imbalance,medium,31606.9942,543.3278,0.4995,19112.2254,0.964,225.0133,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i03,city_1,4way,mild_imbalance,medium,20847.8656,353.355,0.8374,19956.5964,0.817,185.9149,0.1757,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i04,city_1,4way,mild_imbalance,medium,31511.9497,542.5118,0.4995,19112.2254,0.964,225.0133,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i04,city_1,4way,mild_imbalance,medium,21252.7524,356.7703,0.8374,19956.5964,0.817,185.9149,0.1757,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i05,city_1,4way,severe_imbalance,high,32097.1024,548.1705,0.4965,17992.2734,1.2828,299.4196,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i05,city_1,4way,severe_imbalance,high,21444.6493,363.9972,0.8367,18732.2198,1.0966,249.7639,0.1836,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i06,city_1,4way,balanced,medium,32182.3591,548.2679,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i06,city_1,4way,balanced,medium,20925.5112,353.2521,0.8368,22233.7452,0.6892,156.7915,0.1747,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i07,city_1,3way,mild_imbalance,medium,17161.2492,293.9521,0.5104,10956.0528,0.1231,28.7135,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i07,city_1,3way,mild_imbalance,medium,11186.5462,189.3435,0.8399,11440.0871,0.1038,23.6236,0.1729,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i08,city_1,3way,balanced,low,2322.7144,39.9345,0.5159,10956.0528,0.0751,17.533,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i08,city_1,3way,balanced,low,1508.12,25.4186,0.8411,11459.6448,0.0629,14.3228,0.1674,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i09,city_1,4way,balanced,medium,31263.6987,540.3804,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i09,city_1,4way,balanced,medium,21301.5172,356.4229,0.8368,22233.7452,0.6892,156.7915,0.1747,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i10,city_1,4way,severe_imbalance,high,32034.237,547.6308,0.4965,17992.2734,1.2828,299.4196,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i10,city_1,4way,severe_imbalance,high,21387.1132,363.5126,0.8367,18732.2198,1.0966,249.7639,0.1836,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i11,city_1,3way,mild_imbalance,medium,16869.187,291.4445,0.5104,10956.0528,0.1231,28.7135,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i11,city_1,3way,mild_imbalance,medium,11338.4908,190.628,0.8399,11440.0871,0.1038,23.6236,0.1729,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i12,city_1,4way,balanced,medium,31477.2345,542.2138,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i12,city_1,4way,balanced,medium,20936.9208,353.3483,0.8368,22233.7452,0.6892,156.7915,0.1747,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i13,city_1,4way,balanced,low,31597.2255,543.244,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i13,city_1,4way,balanced,low,20578.7255,348.5917,0.8368,22257.1769,0.6874,156.3161,0.1721,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i14,city_1,3way,mild_imbalance,medium,17184.3546,294.1504,0.5104,10956.0528,0.1231,28.7135,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i14,city_1,3way,mild_imbalance,medium,11284.9813,190.1757,0.8399,11440.0871,0.1038,23.6236,0.1729,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i15,city_1,4way,balanced,medium,31220.0589,540.0057,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i15,city_1,4way,balanced,medium,20913.069,353.1472,0.8368,22233.7452,0.6892,156.7915,0.1747,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i16,city_1,3way,severe_imbalance,high,29144.6164,503.9396,0.4997,11016.9198,0.3731,87.0816,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i16,city_1,3way,severe_imbalance,high,19919.6494,338.0894,0.8374,11469.9993,0.3185,72.5502,0.1828,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i17,city_1,4way,balanced,low,31580.3939,543.0995,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i17,city_1,4way,balanced,low,20973.9028,351.9254,0.8368,22257.1769,0.6874,156.3161,0.1721,overflow,overflow-focused demand and capacity stress
+default_sim,city1_i18,city_1,3way,mild_imbalance,medium,16945.5401,292.1,0.5104,10956.0528,0.1231,28.7135,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city1_i18,city_1,3way,mild_imbalance,medium,11370.3224,190.8971,0.8399,11440.0871,0.1038,23.6236,0.1729,overflow,overflow-focused demand and capacity stress
+default_sim,city2_i01,city_2,3way,severe_imbalance,high,30156.4914,514.7127,0.4982,11729.0632,0.4019,93.804,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i01,city_2,3way,severe_imbalance,high,20501.1349,347.4219,0.8371,12188.7477,0.3449,78.6064,0.1878,overflow,overflow-focused demand and capacity stress
+default_sim,city2_i02,city_2,4way,severe_imbalance,high,31476.9747,542.8462,0.4965,17992.2734,1.2828,299.4196,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i02,city_2,4way,severe_imbalance,high,22263.7192,373.9539,0.8367,18697.4251,1.1016,251.0799,0.1882,overflow,overflow-focused demand and capacity stress
+default_sim,city2_i03,city_2,4way,mild_imbalance,high,31720.0501,544.2985,0.4995,19112.2254,0.964,225.0133,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i03,city_2,4way,mild_imbalance,high,21885.3026,367.0206,0.8374,19896.9562,0.8232,187.5107,0.183,overflow,overflow-focused demand and capacity stress
+default_sim,city2_i04,city_2,3way,mild_imbalance,medium,17296.7254,295.1152,0.5104,10956.0528,0.1231,28.7135,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city2_i04,city_2,3way,mild_imbalance,medium,11568.8656,193.782,0.8399,11424.4759,0.1042,23.7166,0.1763,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i01,city_3,4way,balanced,medium,32000.2576,546.7044,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i01,city_3,4way,balanced,medium,21440.9802,358.6313,0.8368,22219.7978,0.6903,157.0744,0.1762,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i02,city_3,4way,mild_imbalance,medium,31709.4055,544.2071,0.4995,19112.2254,0.964,225.0133,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i02,city_3,4way,mild_imbalance,medium,21027.5683,355.9936,0.8374,19942.9799,0.8184,186.2792,0.1773,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i03,city_3,3way,balanced,low,2289.8522,39.6523,0.5159,10956.0528,0.0751,17.533,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i03,city_3,3way,balanced,low,1479.8155,25.2439,0.8411,11453.469,0.063,14.3453,0.1687,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i04,city_3,4way,mild_imbalance,medium,31399.6171,541.5473,0.4995,19112.2254,0.964,225.0133,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i04,city_3,4way,mild_imbalance,medium,21201.6243,357.4615,0.8374,19942.9799,0.8184,186.2792,0.1773,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i05,city_3,4way,severe_imbalance,high,31944.5697,546.8609,0.4965,17992.2734,1.2828,299.4196,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i05,city_3,4way,severe_imbalance,high,22343.5406,373.0959,0.8367,18714.8224,1.0991,250.4219,0.1859,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i06,city_3,3way,balanced,low,2341.3616,40.0946,0.5159,10956.0528,0.0751,17.533,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i06,city_3,3way,balanced,low,1475.7231,25.2093,0.8411,11453.469,0.063,14.3453,0.1687,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i07,city_3,4way,balanced,medium,31815.1055,545.1147,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i07,city_3,4way,balanced,medium,21256.1227,357.0728,0.8368,22219.7978,0.6903,157.0744,0.1762,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i08,city_3,4way,mild_imbalance,medium,31258.364,540.3346,0.4995,19112.2254,0.964,225.0133,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i08,city_3,4way,mild_imbalance,medium,21007.9775,355.8284,0.8374,19942.9799,0.8184,186.2792,0.1773,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i09,city_3,3way,mild_imbalance,medium,17083.0975,293.2811,0.5104,10956.0528,0.1231,28.7135,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i09,city_3,3way,mild_imbalance,medium,11451.4319,192.1861,0.8399,11432.2815,0.104,23.6701,0.1746,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i10,city_3,4way,balanced,medium,31674.248,543.9053,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i10,city_3,4way,balanced,medium,20801.1484,353.237,0.8368,22219.7978,0.6903,157.0744,0.1762,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i11,city_3,4way,balanced,low,32031.3977,546.9717,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i11,city_3,4way,balanced,low,20544.0656,349.1879,0.8368,22245.1821,0.6883,156.5595,0.1734,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i12,city_3,4way,mild_imbalance,medium,31493.7258,542.3553,0.4995,19112.2254,0.964,225.0133,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i12,city_3,4way,mild_imbalance,medium,20956.3656,355.3932,0.8374,19942.9799,0.8184,186.2792,0.1773,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i13,city_3,3way,severe_imbalance,high,29771.2018,509.2967,0.4992,11083.0039,0.3842,89.675,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i13,city_3,3way,severe_imbalance,high,20417.3866,343.7381,0.8373,11528.0846,0.3288,74.92,0.1852,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i14,city_3,4way,balanced,medium,31381.292,541.39,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i14,city_3,4way,balanced,medium,21108.8495,355.8312,0.8368,22219.7978,0.6903,157.0744,0.1762,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i15,city_3,3way,balanced,low,2317.3358,39.8883,0.5159,10956.0528,0.0751,17.533,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i15,city_3,3way,balanced,low,1485.1326,25.289,0.8411,11453.469,0.063,14.3453,0.1687,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i16,city_3,4way,mild_imbalance,medium,31174.3063,539.6129,0.4995,19112.2254,0.964,225.0133,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i16,city_3,4way,mild_imbalance,medium,21563.8033,360.5158,0.8374,19942.9799,0.8184,186.2792,0.1773,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i17,city_3,4way,severe_imbalance,high,31797.1101,545.5948,0.4965,17992.2734,1.2828,299.4196,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i17,city_3,4way,severe_imbalance,high,21912.3014,369.4654,0.8367,18714.8224,1.0991,250.4219,0.1859,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i18,city_3,3way,mild_imbalance,medium,17132.266,293.7032,0.5104,10956.0528,0.1231,28.7135,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i18,city_3,3way,mild_imbalance,medium,11086.367,189.1008,0.8399,11432.2815,0.104,23.6701,0.1746,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i19,city_3,4way,balanced,medium,31148.7755,539.3936,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i19,city_3,4way,balanced,medium,21290.8522,357.3656,0.8368,22219.7978,0.6903,157.0744,0.1762,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i20,city_3,4way,balanced,low,31580.9858,543.1045,0.4968,21279.0892,0.8137,189.9255,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i20,city_3,4way,balanced,low,21078.9221,353.6991,0.8368,22245.1821,0.6883,156.5595,0.1734,overflow,overflow-focused demand and capacity stress
+default_sim,city3_i21,city_3,3way,mild_imbalance,medium,17325.0232,295.3582,0.5104,10956.0528,0.1231,28.7135,0.3158,overflow,overflow-focused demand and capacity stress
+calibrated_sim_plus_domain_randomization_plus_opm,city3_i21,city_3,3way,mild_imbalance,medium,11234.055,190.3489,0.8399,11432.2815,0.104,23.6701,0.1746,overflow,overflow-focused demand and capacity stress

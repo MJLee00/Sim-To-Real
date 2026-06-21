@@ -1,0 +1,5 @@
+.venv/
+latex/
+*.out
+__pycache__/
+*.pyc

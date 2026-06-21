@@ -1,0 +1,17 @@
+scenario,budget,intersection_count,overflow_count,overflow_switch_success,throughput,average_delay_seconds
+seen_city_unseen_intersection,zero_shot,2,12233.1315,0.8753,18450.3385,132.1913
+seen_city_unseen_intersection,1_day,2,11338.5981,0.8789,18553.8043,130.0111
+seen_city_unseen_intersection,3_days,2,10571.8553,0.8819,18642.4895,128.1422
+seen_city_unseen_intersection,1_week,2,9932.9028,0.8843,18716.3938,126.5848
+cross_city_transfer,zero_shot,21,9577.7862,0.8763,21212.7112,103.8639
+cross_city_transfer,1_day,21,8799.9221,0.8798,21337.8305,102.0426
+cross_city_transfer,3_days,21,8133.1815,0.8828,21445.0756,100.4816
+cross_city_transfer,1_week,21,7577.5643,0.8853,21534.4466,99.1807
+cross_structure_transfer,zero_shot,15,6361.1995,0.8774,14314.5884,37.4447
+cross_structure_transfer,1_day,15,5859.5301,0.8809,14398.3947,36.808
+cross_structure_transfer,3_days,15,5429.5277,0.8839,14470.2287,36.2623
+cross_structure_transfer,1_week,15,5071.1924,0.8864,14530.0904,35.8075
+severe_lane_mismatch,zero_shot,8,12131.4176,0.8754,19231.1773,148.1052
+severe_lane_mismatch,1_day,8,11220.1938,0.8789,19340.404,145.6201
+severe_lane_mismatch,3_days,8,10439.1449,0.8819,19434.027,143.4902
+severe_lane_mismatch,1_week,8,9788.2707,0.8844,19512.0461,141.7152

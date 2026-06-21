@@ -1,0 +1,50 @@
+[splits]
+version = "v1"
+description = "Canonical intersection-level splits derived from the paper and TODO revision plan."
+
+[splits.cities_1_2_train]
+intersections = [
+  "city1_i01", "city1_i02", "city1_i03", "city1_i04", "city1_i05", "city1_i06",
+  "city1_i07", "city1_i08", "city1_i09", "city1_i10", "city1_i11", "city1_i12",
+  "city1_i13", "city1_i14", "city2_i03", "city2_i04",
+]
+
+[splits.city_2_holdout]
+intersections = ["city2_i01", "city2_i02"]
+
+[splits.city_2_peak_holdout]
+intersections = ["city2_i01", "city2_i02"]
+notes = ["case_study_peak_hours", "replay_priority"]
+
+[splits.cities_1_2_3_holdout]
+intersections = [
+  "city1_i15", "city1_i16", "city1_i17", "city1_i18",
+  "city3_i01", "city3_i02", "city3_i03", "city3_i04", "city3_i05", "city3_i06",
+  "city3_i07", "city3_i08", "city3_i09", "city3_i10", "city3_i11", "city3_i12",
+  "city3_i13", "city3_i14", "city3_i15", "city3_i16", "city3_i17", "city3_i18",
+  "city3_i19", "city3_i20", "city3_i21",
+]
+
+[splits.city_3_and_unseen_intersections]
+intersections = [
+  "city1_i15", "city1_i16", "city1_i17", "city1_i18",
+  "city3_i01", "city3_i02", "city3_i03", "city3_i04", "city3_i05", "city3_i06",
+  "city3_i07", "city3_i08", "city3_i09", "city3_i10", "city3_i11", "city3_i12",
+  "city3_i13", "city3_i14", "city3_i15", "city3_i16", "city3_i17", "city3_i18",
+  "city3_i19", "city3_i20", "city3_i21",
+]
+
+[splits.city_3_holdout]
+intersections = [
+  "city3_i01", "city3_i02", "city3_i03", "city3_i04", "city3_i05", "city3_i06",
+  "city3_i07", "city3_i08", "city3_i09", "city3_i10", "city3_i11", "city3_i12",
+  "city3_i13", "city3_i14", "city3_i15", "city3_i16", "city3_i17", "city3_i18",
+  "city3_i19", "city3_i20", "city3_i21",
+]
+
+[splits.mixed_topology_holdout]
+intersections = [
+  "city1_i07", "city1_i08", "city1_i14", "city1_i16", "city1_i18",
+  "city2_i01", "city2_i02", "city2_i04",
+  "city3_i03", "city3_i06", "city3_i09", "city3_i13", "city3_i15", "city3_i18", "city3_i21",
+]

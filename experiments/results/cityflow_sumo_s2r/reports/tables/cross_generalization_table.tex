@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllll}
+\toprule
+scenario & budget & intersection\_count & overflow\_count & overflow\_switch\_success & throughput \\
+\midrule
+seen\_city\_unseen\_intersection & zero\_shot & 2 & 12233.1315 & 0.8753 & 18450.3385 \\
+seen\_city\_unseen\_intersection & 1\_week & 2 & 9932.9028 & 0.8843 & 18716.3938 \\
+cross\_city\_transfer & zero\_shot & 21 & 9577.7862 & 0.8763 & 21212.7112 \\
+cross\_city\_transfer & 1\_week & 21 & 7577.5643 & 0.8853 & 21534.4466 \\
+cross\_structure\_transfer & zero\_shot & 15 & 6361.1995 & 0.8774 & 14314.5884 \\
+cross\_structure\_transfer & 1\_week & 15 & 5071.1924 & 0.8864 & 14530.0904 \\
+severe\_lane\_mismatch & zero\_shot & 8 & 12131.4176 & 0.8754 & 19231.1773 \\
+severe\_lane\_mismatch & 1\_week & 8 & 9788.2707 & 0.8844 & 19512.0461 \\
+\bottomrule
+\end{tabular}
+\caption{Cross-intersection and cross-city transfer under zero-shot and one-week calibration.}
+\label{tab:s2r-cross-generalization}
+\end{table}

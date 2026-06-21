@@ -1,0 +1,133 @@
+{
+  "experiment_name": "domain_gap_robustness",
+  "generated_at": "2026-06-20T14:49:43.660076Z",
+  "goal": "Stress test transfer robustness under realistic traffic, sensing, and actuation gaps.",
+  "output_subdir": "04_domain_gap_robustness",
+  "paths": {
+    "artifacts_root": "/scratch/project_462001050/cache/overflowlight_s2r/artifacts",
+    "cache_root": "/scratch/project_462001050/cache/overflowlight_s2r",
+    "data_root": "/scratch/project_462001050/cache/overflowlight_s2r/data",
+    "logs_root": "/scratch/project_462001050/cache/overflowlight_s2r/logs",
+    "real_logs_root": "/scratch/project_462001050/cache/overflowlight_s2r/real_logs",
+    "reports_root": "/scratch/project_462001050/cache/overflowlight_s2r/reports",
+    "shadow_replay_root": "/scratch/project_462001050/cache/overflowlight_s2r/shadow_replay",
+    "sim_root": "/scratch/project_462001050/cache/overflowlight_s2r/simulators",
+    "splits_root": "/scratch/project_462001050/cache/overflowlight_s2r/splits"
+  },
+  "runtime": {
+    "seed": 20260620,
+    "strict_reproducibility": true,
+    "timezone": "Europe/Helsinki"
+  },
+  "slurm": {
+    "account": "project_462001493",
+    "bootstrap_partition": "small",
+    "bootstrap_time": "00:30:00",
+    "cpu_partition": "small",
+    "cpu_time": "00:20:00",
+    "cpus_per_task": 8,
+    "gpu_partition": "small-g",
+    "gpu_time": "01:00:00",
+    "gpus_per_node": 1,
+    "memory": "16G"
+  },
+  "splits": {},
+  "work_items": [
+    {
+      "perturbation": "actuation_delay_seconds",
+      "setting": 0.1
+    },
+    {
+      "perturbation": "actuation_delay_seconds",
+      "setting": 0.5
+    },
+    {
+      "perturbation": "actuation_delay_seconds",
+      "setting": 1.0
+    },
+    {
+      "perturbation": "capacity_gap",
+      "setting": "minus_10_percent"
+    },
+    {
+      "perturbation": "capacity_gap",
+      "setting": "minus_20_percent"
+    },
+    {
+      "perturbation": "capacity_gap",
+      "setting": "minus_30_percent"
+    },
+    {
+      "perturbation": "demand_gap",
+      "setting": 1.2
+    },
+    {
+      "perturbation": "demand_gap",
+      "setting": 1.4
+    },
+    {
+      "perturbation": "demand_gap",
+      "setting": 1.6
+    },
+    {
+      "perturbation": "incident_gap",
+      "setting": "downstream_blockage"
+    },
+    {
+      "perturbation": "incident_gap",
+      "setting": "temporary_lane_closure"
+    },
+    {
+      "perturbation": "sensor_missingness",
+      "setting": 0.05
+    },
+    {
+      "perturbation": "sensor_missingness",
+      "setting": 0.1
+    },
+    {
+      "perturbation": "sensor_missingness",
+      "setting": 0.2
+    },
+    {
+      "perturbation": "sensor_noise",
+      "setting": "low"
+    },
+    {
+      "perturbation": "sensor_noise",
+      "setting": "medium"
+    },
+    {
+      "perturbation": "sensor_noise",
+      "setting": "high"
+    },
+    {
+      "perturbation": "turning_ratio_gap",
+      "setting": "left_shift"
+    },
+    {
+      "perturbation": "turning_ratio_gap",
+      "setting": "straight_shift"
+    },
+    {
+      "perturbation": "turning_ratio_gap",
+      "setting": "right_shift"
+    },
+    {
+      "perturbation": "weather_gap",
+      "setting": "rain"
+    },
+    {
+      "perturbation": "weather_gap",
+      "setting": "snow"
+    },
+    {
+      "perturbation": "weather_gap",
+      "setting": "fog"
+    },
+    {
+      "perturbation": "weather_gap",
+      "setting": "night"
+    }
+  ]
+}

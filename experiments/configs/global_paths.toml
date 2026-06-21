@@ -1,0 +1,22 @@
+[project]
+name = "OverFlowLight-S2R"
+manuscript = "latex/kdd26/submit.tex"
+todo = "latex/TODO.md"
+
+[paths]
+cache_root = "/scratch/project_462001050/cache/overflowlight_s2r"
+data_root = "/scratch/project_462001050/cache/overflowlight_s2r/data"
+sim_root = "/scratch/project_462001050/cache/overflowlight_s2r/simulators"
+real_logs_root = "/scratch/project_462001050/cache/overflowlight_s2r/real_logs"
+shadow_replay_root = "/scratch/project_462001050/cache/overflowlight_s2r/shadow_replay"
+artifacts_root = "/scratch/project_462001050/cache/overflowlight_s2r/artifacts"
+logs_root = "/scratch/project_462001050/cache/overflowlight_s2r/logs"
+reports_root = "/scratch/project_462001050/cache/overflowlight_s2r/reports"
+splits_root = "/scratch/project_462001050/cache/overflowlight_s2r/splits"
+
+[datasets]
+city_1 = "reserved_for_ingest"
+city_2 = "reserved_for_ingest"
+city_3 = "reserved_for_ingest"
+intersection_1 = "reserved_for_ingest"
+intersection_2 = "reserved_for_ingest"

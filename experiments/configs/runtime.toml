@@ -1,0 +1,26 @@
+[runtime]
+seed = 20260620
+timezone = "Europe/Helsinki"
+strict_reproducibility = true
+
+[slurm]
+account = "project_462001493"
+bootstrap_partition = "small"
+cpu_partition = "small"
+gpu_partition = "small-g"
+bootstrap_time = "00:30:00"
+cpu_time = "00:20:00"
+gpu_time = "01:00:00"
+cpus_per_task = 8
+memory = "16G"
+gpus_per_node = 1
+
+[container]
+sif = "/appl/local/laifs/containers/lumi-multitorch-latest.sif"
+venv_dir = ".venv"
+venv_sqsh = ".venv.sqsh"
+
+[logging]
+level = "INFO"
+save_stdout = true
+save_jsonl = true

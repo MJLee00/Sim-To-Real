@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllllllll}
+\toprule
+method & split & intersection\_count & overflow\_count & overflow\_duration\_minutes & overflow\_switch\_success & throughput & stop\_frequency & average\_delay\_seconds & safety\_violation\_rate \\
+\midrule
+real\_only & test & 25 & 13167.7693 & 224.1898 & 0.7261 & 20515.4255 & 0.4932 & 108.2789 & 0.1726 \\
+default\_sim & test & 25 & 18477.102 & 306.0328 & 0.5673 & 19910.2407 & 0.5412 & 121.7343 & 0.2373 \\
+calibrated\_sim & test & 25 & 14539.1535 & 244.6105 & 0.6936 & 20454.907 & 0.5073 & 112.4428 & 0.1878 \\
+calibrated\_sim\_plus\_domain\_randomization & test & 25 & 12572.2484 & 217.2673 & 0.7617 & 20696.9809 & 0.4804 & 106.5699 & 0.1613 \\
+calibrated\_sim\_plus\_opm & test & 25 & 11060.2754 & 187.3664 & 0.8181 & 20838.1907 & 0.4752 & 104.6985 & 0.1169 \\
+calibrated\_sim\_plus\_domain\_randomization\_plus\_opm & test & 25 & 8791.7131 & 154.456 & 0.8802 & 21181.1288 & 0.4492 & 98.3578 & 0.0836 \\
+\bottomrule
+\end{tabular}
+\caption{Sim-to-real transfer from CityFlow to SUMO on held-out intersections.}
+\label{tab:s2r-transfer}
+\end{table}

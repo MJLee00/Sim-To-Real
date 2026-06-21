@@ -1,0 +1,40 @@
+[experiment]
+name = "simulator_fidelity"
+output_subdir = "01_simulator_fidelity"
+goal = "Measure how well calibrated simulation reproduces real overflow dynamics."
+
+[environments]
+defaults = ["cityflow_default"]
+candidates = ["cityflow_calibrated"]
+reference = "sumo_target"
+
+[calibration]
+history_days = 7
+window_minutes = 15
+factors = [
+  "arrival_demand",
+  "turning_ratio",
+  "saturation_flow",
+  "exit_lane_capacity",
+  "queue_spillback_threshold",
+  "lane_mismatch",
+  "signal_lost_time",
+  "perception_noise",
+  "signal_actuation_delay",
+]
+
+[metrics]
+primary = [
+  "queue_length_distribution_error",
+  "overflow_count_error",
+  "overflow_duration_error",
+  "speed_distribution_error",
+  "throughput_error",
+  "phase_switch_timing_error",
+]
+direction = "lower_is_better"
+
+[splits]
+calibration = "cities_1_2_train"
+validation = "city_2_holdout"
+test = "cities_1_2_3_holdout"

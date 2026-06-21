@@ -1,0 +1,118 @@
+{
+  "experiment_name": "cross_generalization",
+  "generated_at": "2026-06-20T14:49:43.648218Z",
+  "goal": "Measure zero-shot and few-shot transfer across intersections, structures, and cities.",
+  "output_subdir": "03_cross_generalization",
+  "paths": {
+    "artifacts_root": "/scratch/project_462001050/cache/overflowlight_s2r/artifacts",
+    "cache_root": "/scratch/project_462001050/cache/overflowlight_s2r",
+    "data_root": "/scratch/project_462001050/cache/overflowlight_s2r/data",
+    "logs_root": "/scratch/project_462001050/cache/overflowlight_s2r/logs",
+    "real_logs_root": "/scratch/project_462001050/cache/overflowlight_s2r/real_logs",
+    "reports_root": "/scratch/project_462001050/cache/overflowlight_s2r/reports",
+    "shadow_replay_root": "/scratch/project_462001050/cache/overflowlight_s2r/shadow_replay",
+    "sim_root": "/scratch/project_462001050/cache/overflowlight_s2r/simulators",
+    "splits_root": "/scratch/project_462001050/cache/overflowlight_s2r/splits"
+  },
+  "runtime": {
+    "seed": 20260620,
+    "strict_reproducibility": true,
+    "timezone": "Europe/Helsinki"
+  },
+  "slurm": {
+    "account": "project_462001493",
+    "bootstrap_partition": "small",
+    "bootstrap_time": "00:30:00",
+    "cpu_partition": "small",
+    "cpu_time": "00:20:00",
+    "cpus_per_task": 8,
+    "gpu_partition": "small-g",
+    "gpu_time": "01:00:00",
+    "gpus_per_node": 1,
+    "memory": "16G"
+  },
+  "splits": {
+    "source_train": {
+      "intersection_count": 16,
+      "split_name": "cities_1_2_train"
+    },
+    "target_cross_city": {
+      "intersection_count": 21,
+      "split_name": "city_3_holdout"
+    },
+    "target_cross_structure": {
+      "intersection_count": 15,
+      "split_name": "mixed_topology_holdout"
+    },
+    "target_seen_city": {
+      "intersection_count": 2,
+      "split_name": "city_2_holdout"
+    }
+  },
+  "work_items": [
+    {
+      "budget": "zero_shot",
+      "scenario": "seen_city_unseen_intersection"
+    },
+    {
+      "budget": "1_day",
+      "scenario": "seen_city_unseen_intersection"
+    },
+    {
+      "budget": "3_days",
+      "scenario": "seen_city_unseen_intersection"
+    },
+    {
+      "budget": "1_week",
+      "scenario": "seen_city_unseen_intersection"
+    },
+    {
+      "budget": "zero_shot",
+      "scenario": "cross_city_transfer"
+    },
+    {
+      "budget": "1_day",
+      "scenario": "cross_city_transfer"
+    },
+    {
+      "budget": "3_days",
+      "scenario": "cross_city_transfer"
+    },
+    {
+      "budget": "1_week",
+      "scenario": "cross_city_transfer"
+    },
+    {
+      "budget": "zero_shot",
+      "scenario": "cross_structure_transfer"
+    },
+    {
+      "budget": "1_day",
+      "scenario": "cross_structure_transfer"
+    },
+    {
+      "budget": "3_days",
+      "scenario": "cross_structure_transfer"
+    },
+    {
+      "budget": "1_week",
+      "scenario": "cross_structure_transfer"
+    },
+    {
+      "budget": "zero_shot",
+      "scenario": "severe_lane_mismatch"
+    },
+    {
+      "budget": "1_day",
+      "scenario": "severe_lane_mismatch"
+    },
+    {
+      "budget": "3_days",
+      "scenario": "severe_lane_mismatch"
+    },
+    {
+      "budget": "1_week",
+      "scenario": "severe_lane_mismatch"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[experiment]
+name = "domain_gap_robustness"
+output_subdir = "04_domain_gap_robustness"
+goal = "Stress test transfer robustness under realistic traffic, sensing, and actuation gaps."
+
+[perturbations]
+demand_gap = [1.2, 1.4, 1.6]
+turning_ratio_gap = ["left_shift", "straight_shift", "right_shift"]
+capacity_gap = ["minus_10_percent", "minus_20_percent", "minus_30_percent"]
+sensor_noise = ["low", "medium", "high"]
+sensor_missingness = [0.05, 0.10, 0.20]
+weather_gap = ["rain", "snow", "fog", "night"]
+actuation_delay_seconds = [0.1, 0.5, 1.0]
+incident_gap = ["downstream_blockage", "temporary_lane_closure"]
+
+[metrics]
+primary = [
+  "overflow_count",
+  "safety_violation_rate",
+  "throughput_degradation",
+  "recovery_time_after_overflow",
+  "policy_stability",
+  "phase_switch_frequency",
+]
+
+[reference_methods]
+baseline = "ordinary_rl_controller"
+calibrated = "calibrated_sim_controller"
+proposed = "calibrated_sim_plus_domain_randomization_plus_opm"

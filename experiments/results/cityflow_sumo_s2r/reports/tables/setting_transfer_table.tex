@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllll}
+\toprule
+setting & description & intersection\_count & direct\_transfer\_overflow\_count & our\_method\_overflow\_count & direct\_transfer\_oss & our\_method\_oss \\
+\midrule
+V1 & lighter vehicle dynamics & 43 & 17011.2672 & 7870.4823 & 0.572 & 0.8825 \\
+V2 & heavier vehicle dynamics & 43 & 23290.4879 & 12471.0904 & 0.5407 & 0.8634 \\
+V3 & rain weather gap & 43 & 21711.4718 & 12178.6558 & 0.5335 & 0.8585 \\
+V4 & snow weather gap & 43 & 24474.75 & 15164.6925 & 0.5161 & 0.8477 \\
+overflow & overflow-focused demand and capacity stress & 43 & 26053.7661 & 17470.4111 & 0.5017 & 0.8379 \\
+\bottomrule
+\end{tabular}
+\caption{Direct transfer versus the full OverFlowLight transfer method under V1-V4 and overflow settings.}
+\label{tab:s2r-setting-transfer}
+\end{table}

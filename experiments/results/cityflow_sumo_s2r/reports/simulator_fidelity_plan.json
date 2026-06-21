@@ -1,0 +1,58 @@
+{
+  "experiment_name": "simulator_fidelity",
+  "generated_at": "2026-06-20T14:49:43.686942Z",
+  "goal": "Measure how well calibrated simulation reproduces real overflow dynamics.",
+  "output_subdir": "01_simulator_fidelity",
+  "paths": {
+    "artifacts_root": "/scratch/project_462001050/cache/overflowlight_s2r/artifacts",
+    "cache_root": "/scratch/project_462001050/cache/overflowlight_s2r",
+    "data_root": "/scratch/project_462001050/cache/overflowlight_s2r/data",
+    "logs_root": "/scratch/project_462001050/cache/overflowlight_s2r/logs",
+    "real_logs_root": "/scratch/project_462001050/cache/overflowlight_s2r/real_logs",
+    "reports_root": "/scratch/project_462001050/cache/overflowlight_s2r/reports",
+    "shadow_replay_root": "/scratch/project_462001050/cache/overflowlight_s2r/shadow_replay",
+    "sim_root": "/scratch/project_462001050/cache/overflowlight_s2r/simulators",
+    "splits_root": "/scratch/project_462001050/cache/overflowlight_s2r/splits"
+  },
+  "runtime": {
+    "seed": 20260620,
+    "strict_reproducibility": true,
+    "timezone": "Europe/Helsinki"
+  },
+  "slurm": {
+    "account": "project_462001493",
+    "bootstrap_partition": "small",
+    "bootstrap_time": "00:30:00",
+    "cpu_partition": "small",
+    "cpu_time": "00:20:00",
+    "cpus_per_task": 8,
+    "gpu_partition": "small-g",
+    "gpu_time": "01:00:00",
+    "gpus_per_node": 1,
+    "memory": "16G"
+  },
+  "splits": {
+    "calibration": {
+      "intersection_count": 16,
+      "split_name": "cities_1_2_train"
+    },
+    "test": {
+      "intersection_count": 25,
+      "split_name": "cities_1_2_3_holdout"
+    },
+    "validation": {
+      "intersection_count": 2,
+      "split_name": "city_2_holdout"
+    }
+  },
+  "work_items": [
+    {
+      "method": "cityflow_default",
+      "role": "environment"
+    },
+    {
+      "method": "cityflow_calibrated",
+      "role": "environment"
+    }
+  ]
+}

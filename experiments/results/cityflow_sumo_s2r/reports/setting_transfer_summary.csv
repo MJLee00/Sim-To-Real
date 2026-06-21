@@ -1,0 +1,11 @@
+setting,setting_description,method,intersection_count,overflow_count,overflow_duration_minutes,overflow_switch_success,throughput,stop_frequency,average_delay_seconds,safety_violation_rate
+V1,lighter vehicle dynamics,default_sim,43,17011.2672,276.2682,0.572,20772.0793,0.5371,118.235,0.2107
+V1,lighter vehicle dynamics,calibrated_sim_plus_domain_randomization_plus_opm,43,7870.4823,136.0583,0.8825,22134.9313,0.4424,94.7645,0.0704
+V2,heavier vehicle dynamics,default_sim,43,23290.4879,395.0526,0.5407,18626.8795,0.5964,136.9034,0.2707
+V2,heavier vehicle dynamics,calibrated_sim_plus_domain_randomization_plus_opm,43,12471.0904,215.3098,0.8634,19938.291,0.4987,111.457,0.1155
+V3,rain weather gap,default_sim,43,21711.4718,368.726,0.5335,18364.0555,0.6086,139.7177,0.2775
+V3,rain weather gap,calibrated_sim_plus_domain_randomization_plus_opm,43,12178.6558,208.7772,0.8585,19598.8359,0.5102,114.0762,0.1253
+V4,snow weather gap,default_sim,43,24474.75,421.4011,0.5161,17348.5044,0.6445,150.482,0.2965
+V4,snow weather gap,calibrated_sim_plus_domain_randomization_plus_opm,43,15164.6925,259.4406,0.8477,18302.6434,0.5449,124.0114,0.1511
+overflow,overflow-focused demand and capacity stress,default_sim,43,26053.7661,447.7387,0.5017,16915.0495,0.6692,156.1974,0.3158
+overflow,overflow-focused demand and capacity stress,calibrated_sim_plus_domain_randomization_plus_opm,43,17470.4111,294.6503,0.8379,17653.7509,0.5687,129.4585,0.1765

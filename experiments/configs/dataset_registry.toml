@@ -1,0 +1,282 @@
+[dataset]
+name = "overflowlight_deployment_registry"
+description = "Registry of deployed intersections and planned experiment metadata."
+
+[cities.city_1]
+label = "City 1"
+intersection_count = 18
+tags = ["urban_core", "mixed_topology", "deployment"]
+
+[[cities.city_1.intersections]]
+id = "city1_i01"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "medium"
+
+[[cities.city_1.intersections]]
+id = "city1_i02"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "medium"
+
+[[cities.city_1.intersections]]
+id = "city1_i03"
+topology = "4way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_1.intersections]]
+id = "city1_i04"
+topology = "4way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_1.intersections]]
+id = "city1_i05"
+topology = "4way"
+lane_profile = "severe_imbalance"
+risk_level = "high"
+
+[[cities.city_1.intersections]]
+id = "city1_i06"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "medium"
+
+[[cities.city_1.intersections]]
+id = "city1_i07"
+topology = "3way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_1.intersections]]
+id = "city1_i08"
+topology = "3way"
+lane_profile = "balanced"
+risk_level = "low"
+
+[[cities.city_1.intersections]]
+id = "city1_i09"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "medium"
+
+[[cities.city_1.intersections]]
+id = "city1_i10"
+topology = "4way"
+lane_profile = "severe_imbalance"
+risk_level = "high"
+
+[[cities.city_1.intersections]]
+id = "city1_i11"
+topology = "3way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_1.intersections]]
+id = "city1_i12"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "medium"
+
+[[cities.city_1.intersections]]
+id = "city1_i13"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "low"
+
+[[cities.city_1.intersections]]
+id = "city1_i14"
+topology = "3way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_1.intersections]]
+id = "city1_i15"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "medium"
+
+[[cities.city_1.intersections]]
+id = "city1_i16"
+topology = "3way"
+lane_profile = "severe_imbalance"
+risk_level = "high"
+
+[[cities.city_1.intersections]]
+id = "city1_i17"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "low"
+
+[[cities.city_1.intersections]]
+id = "city1_i18"
+topology = "3way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[cities.city_2]
+label = "City 2"
+intersection_count = 4
+tags = ["school_zone", "high_risk", "deployment"]
+
+[[cities.city_2.intersections]]
+id = "city2_i01"
+alias = "intersection_1"
+topology = "3way"
+lane_profile = "severe_imbalance"
+risk_level = "high"
+special_conditions = ["peak_overflow", "case_study", "replay_available"]
+
+[[cities.city_2.intersections]]
+id = "city2_i02"
+alias = "intersection_2"
+topology = "4way"
+lane_profile = "severe_imbalance"
+risk_level = "high"
+special_conditions = ["pedestrian_conflict", "case_study", "replay_available"]
+
+[[cities.city_2.intersections]]
+id = "city2_i03"
+topology = "4way"
+lane_profile = "mild_imbalance"
+risk_level = "high"
+special_conditions = ["school_zone"]
+
+[[cities.city_2.intersections]]
+id = "city2_i04"
+topology = "3way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+special_conditions = ["school_zone"]
+
+[cities.city_3]
+label = "City 3"
+intersection_count = 21
+tags = ["provincial_capital", "mixed_topology", "deployment"]
+
+[[cities.city_3.intersections]]
+id = "city3_i01"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i02"
+topology = "4way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i03"
+topology = "3way"
+lane_profile = "balanced"
+risk_level = "low"
+
+[[cities.city_3.intersections]]
+id = "city3_i04"
+topology = "4way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i05"
+topology = "4way"
+lane_profile = "severe_imbalance"
+risk_level = "high"
+
+[[cities.city_3.intersections]]
+id = "city3_i06"
+topology = "3way"
+lane_profile = "balanced"
+risk_level = "low"
+
+[[cities.city_3.intersections]]
+id = "city3_i07"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i08"
+topology = "4way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i09"
+topology = "3way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i10"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i11"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "low"
+
+[[cities.city_3.intersections]]
+id = "city3_i12"
+topology = "4way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i13"
+topology = "3way"
+lane_profile = "severe_imbalance"
+risk_level = "high"
+
+[[cities.city_3.intersections]]
+id = "city3_i14"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i15"
+topology = "3way"
+lane_profile = "balanced"
+risk_level = "low"
+
+[[cities.city_3.intersections]]
+id = "city3_i16"
+topology = "4way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i17"
+topology = "4way"
+lane_profile = "severe_imbalance"
+risk_level = "high"
+
+[[cities.city_3.intersections]]
+id = "city3_i18"
+topology = "3way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i19"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "medium"
+
+[[cities.city_3.intersections]]
+id = "city3_i20"
+topology = "4way"
+lane_profile = "balanced"
+risk_level = "low"
+
+[[cities.city_3.intersections]]
+id = "city3_i21"
+topology = "3way"
+lane_profile = "mild_imbalance"
+risk_level = "medium"

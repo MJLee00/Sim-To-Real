@@ -1,0 +1,42 @@
+[experiment]
+name = "sim2real_transfer"
+output_subdir = "02_sim2real_transfer"
+goal = "Evaluate whether calibrated simulation improves overflow control after transfer."
+
+[methods]
+baseline = [
+  "real_only",
+  "default_sim",
+  "calibrated_sim",
+]
+proposed = [
+  "calibrated_sim_plus_domain_randomization",
+  "calibrated_sim_plus_opm",
+  "calibrated_sim_plus_domain_randomization_plus_opm",
+]
+
+[evaluation]
+source_environment = "cityflow"
+target_environment = "sumo"
+modes = [
+  "real_replay",
+  "shadow_mode",
+  "held_out_intersections",
+]
+primary_selection_metric = "overflow_switch_success"
+
+[metrics]
+primary = [
+  "overflow_count",
+  "overflow_duration",
+  "overflow_switch_success",
+  "throughput",
+  "stop_frequency",
+  "average_delay",
+  "safety_violation_rate",
+]
+
+[splits]
+train = "cities_1_2_train"
+validation = "city_2_peak_holdout"
+test = "city_3_and_unseen_intersections"

@@ -1,0 +1,35 @@
+{
+  "intersection_count": 2,
+  "intersections": [
+    {
+      "alias": "intersection_1",
+      "city": "city_2",
+      "city_label": "City 2",
+      "id": "city2_i01",
+      "lane_profile": "severe_imbalance",
+      "risk_level": "high",
+      "special_conditions": [
+        "peak_overflow",
+        "case_study",
+        "replay_available"
+      ],
+      "topology": "3way"
+    },
+    {
+      "alias": "intersection_2",
+      "city": "city_2",
+      "city_label": "City 2",
+      "id": "city2_i02",
+      "lane_profile": "severe_imbalance",
+      "risk_level": "high",
+      "special_conditions": [
+        "pedestrian_conflict",
+        "case_study",
+        "replay_available"
+      ],
+      "topology": "4way"
+    }
+  ],
+  "notes": [],
+  "split_name": "city_2_holdout"
+}

@@ -1,0 +1,34 @@
+[experiment]
+name = "cross_generalization"
+output_subdir = "03_cross_generalization"
+goal = "Measure zero-shot and few-shot transfer across intersections, structures, and cities."
+
+[settings]
+scenarios = [
+  "seen_city_unseen_intersection",
+  "cross_city_transfer",
+  "cross_structure_transfer",
+  "severe_lane_mismatch",
+]
+
+[few_shot]
+budgets = [
+  "zero_shot",
+  "1_day",
+  "3_days",
+  "1_week",
+]
+
+[metrics]
+primary = [
+  "overflow_count",
+  "overflow_switch_success",
+  "throughput",
+  "average_delay",
+]
+
+[splits]
+source_train = "cities_1_2_train"
+target_seen_city = "city_2_holdout"
+target_cross_city = "city_3_holdout"
+target_cross_structure = "mixed_topology_holdout"

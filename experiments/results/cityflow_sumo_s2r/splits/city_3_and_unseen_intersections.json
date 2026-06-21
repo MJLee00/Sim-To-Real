@@ -1,0 +1,207 @@
+{
+  "intersection_count": 25,
+  "intersections": [
+    {
+      "city": "city_1",
+      "city_label": "City 1",
+      "id": "city1_i15",
+      "lane_profile": "balanced",
+      "risk_level": "medium",
+      "topology": "4way"
+    },
+    {
+      "city": "city_1",
+      "city_label": "City 1",
+      "id": "city1_i16",
+      "lane_profile": "severe_imbalance",
+      "risk_level": "high",
+      "topology": "3way"
+    },
+    {
+      "city": "city_1",
+      "city_label": "City 1",
+      "id": "city1_i17",
+      "lane_profile": "balanced",
+      "risk_level": "low",
+      "topology": "4way"
+    },
+    {
+      "city": "city_1",
+      "city_label": "City 1",
+      "id": "city1_i18",
+      "lane_profile": "mild_imbalance",
+      "risk_level": "medium",
+      "topology": "3way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i01",
+      "lane_profile": "balanced",
+      "risk_level": "medium",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i02",
+      "lane_profile": "mild_imbalance",
+      "risk_level": "medium",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i03",
+      "lane_profile": "balanced",
+      "risk_level": "low",
+      "topology": "3way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i04",
+      "lane_profile": "mild_imbalance",
+      "risk_level": "medium",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i05",
+      "lane_profile": "severe_imbalance",
+      "risk_level": "high",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i06",
+      "lane_profile": "balanced",
+      "risk_level": "low",
+      "topology": "3way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i07",
+      "lane_profile": "balanced",
+      "risk_level": "medium",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i08",
+      "lane_profile": "mild_imbalance",
+      "risk_level": "medium",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i09",
+      "lane_profile": "mild_imbalance",
+      "risk_level": "medium",
+      "topology": "3way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i10",
+      "lane_profile": "balanced",
+      "risk_level": "medium",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i11",
+      "lane_profile": "balanced",
+      "risk_level": "low",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i12",
+      "lane_profile": "mild_imbalance",
+      "risk_level": "medium",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i13",
+      "lane_profile": "severe_imbalance",
+      "risk_level": "high",
+      "topology": "3way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i14",
+      "lane_profile": "balanced",
+      "risk_level": "medium",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i15",
+      "lane_profile": "balanced",
+      "risk_level": "low",
+      "topology": "3way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i16",
+      "lane_profile": "mild_imbalance",
+      "risk_level": "medium",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i17",
+      "lane_profile": "severe_imbalance",
+      "risk_level": "high",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i18",
+      "lane_profile": "mild_imbalance",
+      "risk_level": "medium",
+      "topology": "3way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i19",
+      "lane_profile": "balanced",
+      "risk_level": "medium",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i20",
+      "lane_profile": "balanced",
+      "risk_level": "low",
+      "topology": "4way"
+    },
+    {
+      "city": "city_3",
+      "city_label": "City 3",
+      "id": "city3_i21",
+      "lane_profile": "mild_imbalance",
+      "risk_level": "medium",
+      "topology": "3way"
+    }
+  ],
+  "notes": [],
+  "split_name": "city_3_and_unseen_intersections"
+}

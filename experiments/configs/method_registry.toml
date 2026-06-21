@@ -1,0 +1,47 @@
+[methods.real_only]
+family = "deployment_baseline"
+train_source = "real_logs"
+uses_opm = false
+uses_domain_randomization = false
+
+[methods.default_sim]
+family = "sim_baseline"
+train_source = "default_simulator"
+uses_opm = false
+uses_domain_randomization = false
+
+[methods.calibrated_sim]
+family = "sim_calibrated"
+train_source = "calibrated_simulator"
+uses_opm = false
+uses_domain_randomization = false
+
+[methods.calibrated_sim_plus_domain_randomization]
+family = "sim_calibrated"
+train_source = "calibrated_simulator"
+uses_opm = false
+uses_domain_randomization = true
+
+[methods.calibrated_sim_plus_opm]
+family = "sim_calibrated"
+train_source = "calibrated_simulator"
+uses_opm = true
+uses_domain_randomization = false
+
+[methods.calibrated_sim_plus_domain_randomization_plus_opm]
+family = "sim_calibrated"
+train_source = "calibrated_simulator"
+uses_opm = true
+uses_domain_randomization = true
+
+[methods.ordinary_rl_controller]
+family = "stress_test_baseline"
+train_source = "real_or_sim"
+uses_opm = false
+uses_domain_randomization = false
+
+[methods.calibrated_sim_controller]
+family = "stress_test_reference"
+train_source = "calibrated_simulator"
+uses_opm = false
+uses_domain_randomization = false

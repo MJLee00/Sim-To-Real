@@ -1,0 +1,110 @@
+{
+  "experiment_name": "sim2real_transfer",
+  "generated_at": "2026-06-20T14:49:43.678916Z",
+  "goal": "Evaluate whether calibrated simulation improves overflow control after transfer.",
+  "output_subdir": "02_sim2real_transfer",
+  "paths": {
+    "artifacts_root": "/scratch/project_462001050/cache/overflowlight_s2r/artifacts",
+    "cache_root": "/scratch/project_462001050/cache/overflowlight_s2r",
+    "data_root": "/scratch/project_462001050/cache/overflowlight_s2r/data",
+    "logs_root": "/scratch/project_462001050/cache/overflowlight_s2r/logs",
+    "real_logs_root": "/scratch/project_462001050/cache/overflowlight_s2r/real_logs",
+    "reports_root": "/scratch/project_462001050/cache/overflowlight_s2r/reports",
+    "shadow_replay_root": "/scratch/project_462001050/cache/overflowlight_s2r/shadow_replay",
+    "sim_root": "/scratch/project_462001050/cache/overflowlight_s2r/simulators",
+    "splits_root": "/scratch/project_462001050/cache/overflowlight_s2r/splits"
+  },
+  "runtime": {
+    "seed": 20260620,
+    "strict_reproducibility": true,
+    "timezone": "Europe/Helsinki"
+  },
+  "slurm": {
+    "account": "project_462001493",
+    "bootstrap_partition": "small",
+    "bootstrap_time": "00:30:00",
+    "cpu_partition": "small",
+    "cpu_time": "00:20:00",
+    "cpus_per_task": 8,
+    "gpu_partition": "small-g",
+    "gpu_time": "01:00:00",
+    "gpus_per_node": 1,
+    "memory": "16G"
+  },
+  "splits": {
+    "test": {
+      "intersection_count": 25,
+      "split_name": "city_3_and_unseen_intersections"
+    },
+    "train": {
+      "intersection_count": 16,
+      "split_name": "cities_1_2_train"
+    },
+    "validation": {
+      "intersection_count": 2,
+      "split_name": "city_2_peak_holdout"
+    }
+  },
+  "work_items": [
+    {
+      "method": "real_only",
+      "registry": {
+        "family": "deployment_baseline",
+        "train_source": "real_logs",
+        "uses_domain_randomization": false,
+        "uses_opm": false
+      },
+      "role": "controller"
+    },
+    {
+      "method": "default_sim",
+      "registry": {
+        "family": "sim_baseline",
+        "train_source": "default_simulator",
+        "uses_domain_randomization": false,
+        "uses_opm": false
+      },
+      "role": "controller"
+    },
+    {
+      "method": "calibrated_sim",
+      "registry": {
+        "family": "sim_calibrated",
+        "train_source": "calibrated_simulator",
+        "uses_domain_randomization": false,
+        "uses_opm": false
+      },
+      "role": "controller"
+    },
+    {
+      "method": "calibrated_sim_plus_domain_randomization",
+      "registry": {
+        "family": "sim_calibrated",
+        "train_source": "calibrated_simulator",
+        "uses_domain_randomization": true,
+        "uses_opm": false
+      },
+      "role": "controller"
+    },
+    {
+      "method": "calibrated_sim_plus_opm",
+      "registry": {
+        "family": "sim_calibrated",
+        "train_source": "calibrated_simulator",
+        "uses_domain_randomization": false,
+        "uses_opm": true
+      },
+      "role": "controller"
+    },
+    {
+      "method": "calibrated_sim_plus_domain_randomization_plus_opm",
+      "registry": {
+        "family": "sim_calibrated",
+        "train_source": "calibrated_simulator",
+        "uses_domain_randomization": true,
+        "uses_opm": true
+      },
+      "role": "controller"
+    }
+  ]
+}
